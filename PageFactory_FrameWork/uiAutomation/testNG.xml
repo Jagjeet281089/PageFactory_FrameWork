@@ -17,9 +17,9 @@
 	<test name="Register Page Tests">
 		<classes>
 
-			<!--<class name="com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials"></class> -->
+			<class name="com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials"></class>
 			<!--<class name="com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration"></class> -->
-			<class name= "com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials"></class>
+			<!--<class name= "com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials"></class> -->
 
 		</classes>
 	</test>
