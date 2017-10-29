@@ -1588,3 +1588,14 @@ Create New Account
 2017-10-27 23:23:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
 2017-10-27 23:23:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
 2017-10-27 23:23:07 INFO  TestBase:22 - Closing the Browser and driver instance!
+2017-10-29 19:14:30 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening Browserchrome
+2017-10-29 19:14:45 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening URLhttp://automationpractice.com/index.php
+2017-10-29 19:14:54 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-10-29 19:14:57 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-10-29 19:14:57 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (d9b8df0dd2e91bfc690cf8b405a73e13)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-10-29 19:14:57 INFO  RegisterPage:90 - Entered email address test@test.com and the object is:[[ChromeDriver: chrome on XP (d9b8df0dd2e91bfc690cf8b405a73e13)] -> xpath: //*[@id='email']]
+2017-10-29 19:14:58 INFO  RegisterPage:90 - Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on XP (d9b8df0dd2e91bfc690cf8b405a73e13)] -> xpath: //*[@id='passwd']]
+2017-10-29 19:14:59 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (d9b8df0dd2e91bfc690cf8b405a73e13)] -> id: SubmitLogin]
+2017-10-29 19:15:04 INFO  RegisterPage:90 - Authentication Faiulre message text is: Authentication failed.
+2017-10-29 19:15:04 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-10-29 19:15:08 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Closing the Browser and driver instance!
