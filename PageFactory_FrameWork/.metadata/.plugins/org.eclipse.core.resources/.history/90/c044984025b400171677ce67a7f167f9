@@ -1,0 +1,9 @@
+package com.test.automation.uiAutomation.uiActions;
+
+import org.apache.log4j.Logger;
+
+public class ProductListigPage {
+	
+	public static final Logger log = Logger.getLogger(ProductListigPage.class.getName());
+	
+}

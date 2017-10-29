@@ -1,0 +1,213 @@
+package com.test.automation.uiAutomation.uiActions;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class HomePage {
+
+	public static final Logger log = Logger.getLogger(HomePage.class.getName());
+	
+	WebDriver driver;
+	
+	@FindBy(xpath="//*[@id='header']/div[2]/div/div/nav/div[1]/a")
+	WebElement signIn;
+	
+	@FindBy(xpath="//a[@class='logout' and @title='Log me out']")
+	WebElement logOut;
+	
+	@FindBy(xpath="//*[@id='email']")
+	WebElement loginEmailAddress;
+	
+	@FindBy(xpath="//*[@id='passwd']")
+	WebElement loginPassword;
+	
+	@FindBy(id="SubmitLogin")
+	WebElement loginSubmitbutton;
+	
+	@FindBy(xpath="//*[@id='center_column']/div[1]/ol/li")
+	WebElement authenticationFailedMessage;
+	
+	@FindBy(id="email_create")
+	WebElement registerEmail;
+	
+	@FindBy(id="SubmitCreate")
+	WebElement registerSubmitOne;
+	
+	@FindBy(id="customer_firstname")
+	WebElement firstName;
+	
+	@FindBy(id="customer_lastname")
+	WebElement lastName;
+	
+	@FindBy(id="passwd")
+	WebElement password;
+	
+	@FindBy(id="firstname")
+	WebElement addressFirstName;
+	
+	@FindBy(id="lastname")
+	WebElement addressLastName;
+	
+	@FindBy(id="address1")
+	WebElement addressLine1;
+	
+	@FindBy(id="city")
+	WebElement city;
+	
+	@FindBy(id="id_state")
+	WebElement state;
+	
+	@FindBy(id="postcode")
+	WebElement postcode;
+	
+	@FindBy(id="id_country")
+	WebElement country;
+	
+	@FindBy(id="phone_mobile")
+	WebElement mobile;
+	
+	@FindBy(id="alias")
+	WebElement alias;
+	
+	@FindBy(id="submitAccount")
+	WebElement registerSubmitTwo;
+	
+	
+	@FindBy(xpath = "//a[@title='View my customer account']/span")
+	WebElement registrationSuccessMessage;
+	
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this); // This is a construct that will initialize all the webelements defined above.
+	}
+	
+	
+	
+	//Method performs login on the application with the given Email and password
+	public void loginToApplication(String emailAddress, String password){
+		signIn.click();
+		log.info("Clicked on Signin link at Home page & the object is:"+signIn.toString());
+		loginEmailAddress.clear();
+		loginEmailAddress.sendKeys(emailAddress);
+		log.info("Entered email address "+emailAddress+" and the object is:"+loginEmailAddress.toString());
+		loginPassword.clear();
+		loginPassword.sendKeys(password);
+		log.info("Entered email address "+password+" and the object is:"+loginPassword.toString());
+		loginSubmitbutton.click();
+		log.info("Clicked on login Submit button & the object is:"+loginSubmitbutton.toString());
+	}
+	
+	public String getauthenticationFailedMessageText(){
+		return authenticationFailedMessage.getText();
+	}
+	
+	public void registerToApplication(String registerEmail, String firstName, String lastName, String password, String addressFirstName, String addressLastName, String addressLine1, String city, String state, String postcode, String country, String mobile, String alias){
+		signIn.click();
+		log.info("Clicked on Signin link at Home page & the object is:"+signIn.toString());
+		this.registerEmail.sendKeys(registerEmail);
+		log.info("Entered email address "+registerEmail+" and the object is:"+this.registerEmail.toString());		
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		
+		js.executeScript("scroll(212, 676)");
+
+				
+		registerSubmitOne.click();
+		
+		log.info("Clicked on Register1 Button at Home page & the object is:"+registerSubmitOne.toString());		
+		this.firstName.clear();
+		this.firstName.sendKeys(firstName);
+		log.info("Entered First Name "+firstName+" and the object is:"+this.firstName.toString());
+		this.lastName.sendKeys(lastName);
+		log.info("Entered Last Name "+lastName+" and the object is:"+this.lastName.toString());
+		this.password.clear();
+		this.password.sendKeys(password);
+		log.info("Entered Password "+password+" and the object is:"+this.password.toString());
+		this.addressFirstName.clear();
+		this.addressFirstName.sendKeys(addressFirstName);
+		log.info("Entered Address First Name "+addressFirstName+" and the object is:"+this.addressFirstName.toString());
+		this.addressLastName.clear();
+		this.addressLastName.sendKeys(addressLastName);
+		log.info("Entered Address Last Name "+addressLastName+" and the object is:"+this.addressLastName.toString());
+		this.addressLine1.clear();
+		this.addressLine1.sendKeys(addressLine1);
+		log.info("Entered Address Line 1 "+addressLine1+" and the object is:"+this.addressLine1.toString());
+		this.city.clear();
+		this.city.sendKeys(city);
+		log.info("Entered city  "+city+" and the object is:"+this.city.toString());
+		Select stateDropdown = new Select(this.state); stateDropdown.selectByVisibleText(state);
+		log.info("Selected State "+state+" and the object is:"+this.state.toString());
+		this.postcode.clear();
+		this.postcode.sendKeys(postcode);
+		log.info("Entered postcode "+postcode+" and the object is:"+this.postcode.toString());
+		Select countryDropdown = new Select(this.country);countryDropdown.selectByVisibleText(country);
+		log.info("Selected Country "+country+" and the object is:"+this.country.toString());
+		this.mobile.clear();
+		this.mobile.sendKeys(mobile);
+		log.info("Entered mobile "+mobile+" and the object is:"+this.mobile.toString());
+		this.alias.clear();
+		this.alias.sendKeys(alias);
+		log.info("Entered alias "+alias+" and the object is:"+this.alias.toString());
+		registerSubmitTwo.click();
+		log.info("Clicked on Register2 Button at Home page & the object is:"+registerSubmitTwo.toString());
+	}
+	
+	
+	public String getRegistrationSuccessMessageText(){
+		log.info("Registration success message text is:"+registrationSuccessMessage.getText());
+		return registrationSuccessMessage.getText();
+	}
+	
+	public boolean getRegistrationSuccess(){
+		
+		try {
+			registrationSuccessMessage.isDisplayed();
+			log.info("Registration success element found. Object is: "+registrationSuccessMessage.toString());
+			return true;
+		} catch (Exception e) {
+			// TODO: handle exception
+			log.info("Registration success element not found");
+			return false;
+		}
+	}
+	
+	public boolean getLogoutLink(){
+		try {
+			logOut.isDisplayed();
+			log.info("Logout element found. Object is: "+logOut.toString());
+			return true;
+		} catch (Exception e) {
+			log.info("Logout Link element not found.");
+			return false;
+		}
+	}
+	
+	public void logOut(){
+		logOut.click();
+		log.info("Clicked on Logout link at Home page & the object is:"+logOut.toString());
+	}
+	
+	public void clickNavigationItem(String mainCategory,String subCategory,String Type){
+		
+		driver.findElement(By.xpath("//div[@id='block_top_menu']/ul[1]/li/a[contains(text(),'"+mainCategory+"')]")).click();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 15);
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//div[@id='categories_block_left']/div[1]/ul[1]/li/a[contains(text(),'"+subCategory+"')]/preceding-sibling::span[1]")));		
+		WebElement subCat = driver.findElement(By.xpath("//div[@id='categories_block_left']/div[1]/ul[1]/li/a[contains(text(),'"+subCategory+"')]/preceding-sibling::span[1]"));
+		subCat.click();
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='categories_block_left']/div[1]/ul[1]/li/a[contains(text(),'"+subCategory+"')]/following-sibling::ul[@style='display: block;']/child::li/child::a[contains(text(),'"+Type+"')]")));
+		WebElement type = driver.findElement(By.xpath("//div[@id='categories_block_left']/div[1]/ul[1]/li/a[contains(text(),'"+subCategory+"')]/following-sibling::ul[@style='display: block;']/child::li/child::a[contains(text(),'"+Type+"')]"));
+		type.click();		
+	}
+	
+}

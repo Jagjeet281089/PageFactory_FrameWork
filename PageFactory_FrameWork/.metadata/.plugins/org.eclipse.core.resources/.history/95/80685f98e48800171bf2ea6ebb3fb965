@@ -1,0 +1,27 @@
+//Name
+public class A1 {
+
+	double PrinAmount ;
+	double Rate ;
+	double Time ;
+	double SI;
+	
+	public void calSI(double p,double r, double t){
+		PrinAmount = p;
+		Rate = r;
+		Time = t;
+		SI = (PrinAmount*Rate*Time)/(100);
+	}
+	
+	public void printSI(){
+		System.out.println("Simple interst is:"+SI);;
+	}
+	
+	
+	public static void main(String[] args) {
+	A1 a = new A1();
+	a.calSI(10, 1, 2);
+	
+	}
+	
+}

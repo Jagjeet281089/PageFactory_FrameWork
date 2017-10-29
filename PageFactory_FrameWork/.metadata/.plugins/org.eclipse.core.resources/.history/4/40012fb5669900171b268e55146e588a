@@ -1,0 +1,5 @@
+package com.test.automation.uiAutomation.homepage;
+
+public class TC002_VerfiyRegistration {
+
+}

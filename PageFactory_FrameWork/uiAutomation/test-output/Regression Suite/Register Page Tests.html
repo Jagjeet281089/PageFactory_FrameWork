@@ -1,0 +1,509 @@
+<html>
+<head>
+<title>TestNG:  Register Page Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Register Page Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/5</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 27 23:18:15 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>291 seconds (291987 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password2, Y<br/>
+<a href="#Output-14477290" onClick='toggleBox("Output-14477290", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14477290" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14477290">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> id: SubmitLogin]<br/>
+Logout Link element not found.<br/>
+<a href='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_20_31.png'> <img src='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_20_31.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace14477290", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14477290'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>19</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, Y<br/>
+<a href="#Output-10570581" onClick='toggleBox("Output-10570581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10570581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10570581">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
+Logout element found. Object is: [[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
+Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
+----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+<a href='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_19_12.png'> <img src='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_19_12.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, Y<br/>
+<a href="#Output-8433702" onClick='toggleBox("Output-8433702", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8433702" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8433702">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
+Logout element found. Object is: [[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
+Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
+----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+<a href='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_21_09.png'> <img src='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_21_09.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password1, y<br/>
+<a href="#Output-33261606" onClick='toggleBox("Output-33261606", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33261606" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33261606">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
+Logout element found. Object is: [[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
+Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
+----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+<a href='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_21_47.png'> <img src='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_21_47.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, y<br/>
+<a href="#Output-25191122" onClick='toggleBox("Output-25191122", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25191122" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25191122">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
+Logout element found. Object is: [[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
+Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
+----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+<a href='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_22_26.png'> <img src='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_22_26.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password1, y<br/>
+<a href="#Output-2600726" onClick='toggleBox("Output-2600726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2600726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2600726">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
+Logout element found. Object is: [[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
+Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
+----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+<a href='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_23_03.png'> <img src='E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_27_10_2017_11_23_03.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password2, Y<br/>
+<a href="#Output-18393640" onClick='toggleBox("Output-18393640", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18393640" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18393640">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> id: SubmitLogin]<br/>
+Logout Link element not found.<br/>
+Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 1 time(s).<br/>
+Test is skipped:verifyLoginWithInvalidCredentials<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace18393640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace18393640'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>19</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password2, Y<br/>
+<a href="#Output-28431610" onClick='toggleBox("Output-28431610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28431610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28431610">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> id: SubmitLogin]<br/>
+Logout Link element not found.<br/>
+Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 2 time(s).<br/>
+Test is skipped:verifyLoginWithInvalidCredentials<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace28431610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace28431610'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>19</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password2, Y<br/>
+<a href="#Output-13577701" onClick='toggleBox("Output-13577701", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13577701" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13577701">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+SignIn link clicked on the page nav Bar.<br/>
+Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
+Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='email']]<br/>
+Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> xpath: //*[@id='passwd']]<br/>
+Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (a400a0fa274743fd7f657fa11b0fe443)] -> id: SubmitLogin]<br/>
+Logout Link element not found.<br/>
+Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 3 time(s).<br/>
+Test is skipped:verifyLoginWithInvalidCredentials<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13577701", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13577701'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>20</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, n<br/>
+<a href="#Output-9183044" onClick='toggleBox("Output-9183044", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9183044" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9183044">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+Test is skipped:verifyLoginWithInvalidCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: This data is marked as N. Hence skipping
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:45)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9183044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9183044'><pre>org.testng.SkipException: This data is marked as N. Hence skipping
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, n<br/>
+<a href="#Output-22528647" onClick='toggleBox("Output-22528647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22528647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22528647">
+----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
+Test is skipped:verifyLoginWithInvalidCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: This data is marked as N. Hence skipping
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:45)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22528647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22528647'><pre>org.testng.SkipException: This data is marked as N. Hence skipping
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@1cab519</td></tr>
+</table><p>
+</body>
+</html>

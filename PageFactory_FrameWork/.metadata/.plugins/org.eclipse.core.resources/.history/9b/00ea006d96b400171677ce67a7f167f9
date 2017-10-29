@@ -1,0 +1,39 @@
+package com.test.automation.uiAutomation.homepage;
+
+import org.apache.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.test.automation.uiAutomation.testBase.TestBase;
+import com.test.automation.uiAutomation.uiActions.RegisterPage;
+
+public class TC001_VerifyLoginWithInvalidCredentials extends TestBase{
+
+	public static final Logger log = Logger.getLogger(TC001_VerifyLoginWithInvalidCredentials.class.getName());
+
+	
+	RegisterPage registerPage;
+	
+	@BeforeTest
+	public void setup(){
+		init();
+	}
+	
+	@Test
+	public void verifyLoginWithInvalidCredentials() throws InterruptedException{
+		log.info("----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------");
+		registerPage = new RegisterPage(driver);
+		registerPage.loginToApplication("test@test.com", "qaz123wsx");
+		Thread.sleep(5000);
+		Assert.assertEquals(registerPage.getauthenticationFailedMessageText(), "Authentication failed.");
+		log.info("----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------");
+	}
+	
+	@AfterTest
+	public void endTest(){
+		driver.close();
+	}
+	
+}

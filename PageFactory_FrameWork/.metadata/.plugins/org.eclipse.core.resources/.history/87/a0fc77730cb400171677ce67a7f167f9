@@ -1,0 +1,36 @@
+package com.test.automation.uiAutomation.homepage;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.test.automation.uiAutomation.testBase.TestBase;
+import com.test.automation.uiAutomation.uiActions.HomePage;
+
+public class TC002_VerfiyRegistration extends TestBase {
+
+	HomePage homePage;
+	String emailAddress = "Jagjeet_"+System.currentTimeMillis()+"@gmail.com";
+
+	@BeforeTest
+	public void setup() {
+		init();
+	}
+
+	@Test
+	public void verifyLoginWithInvalidCredentials() {
+		log.info("----------------Starting Test TC002_VerfiyRegistration----------------");
+		homePage = new HomePage(driver);
+		homePage.registerToApplication(emailAddress, "Jagjeet", "Singh", "Password1", "Add Fir Name",
+				"Add Last Name", "Address Line 1", "City", "Alabama", "12345", "United States", "1234567890", "Alias");
+		Assert.assertEquals(true, homePage.getRegistrationSuccess());
+		Assert.assertEquals(homePage.getRegistrationSuccessMessageText(), "Jagjeet Singh");
+		log.info("----------------Completed Test TC002_VerfiyRegistration----------------");
+	}
+
+	@AfterTest
+	public void endTest() {
+		//driver.close();
+	}
+}

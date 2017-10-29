@@ -1,0 +1,30 @@
+//Name
+public class A1 {
+
+	
+	/*//Properties
+	int A = 0;
+	
+	
+	//Action
+	public void Talk(){
+		
+	}*/
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		A1 a= new A1();
+		a.sum();
+	}
+	
+	public static void sum(){
+		int sum = A+B;
+	}
+
+	static int A = 1;
+	static int B = 2;
+	
+}

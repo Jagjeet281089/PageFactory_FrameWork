@@ -1,0 +1,23 @@
+//Name
+public class A1 {
+
+	int A;
+	int B;
+
+
+	public int Sum(int a , int b){
+
+		A= a;
+		B= b;		
+		int C = A+B;
+		return C;
+	}
+
+
+	public static void main(String[] args) {
+		A1 a = new A1();	
+		System.out.println(a.Sum(1, 2));
+		
+	}
+
+}
