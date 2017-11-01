@@ -1599,3 +1599,295 @@ Create New Account
 2017-10-29 19:15:04 INFO  RegisterPage:90 - Authentication Faiulre message text is: Authentication failed.
 2017-10-29 19:15:04 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------
 2017-10-29 19:15:08 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Closing the Browser and driver instance!
+2017-11-01 22:13:27 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening Browserchrome
+2017-11-01 22:13:41 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 22:14:29 INFO  TestBase:22 - Opening Browserchrome
+2017-11-01 22:14:33 INFO  TestBase:22 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 22:14:50 INFO  TestBase:22 - Opening Browserchrome
+2017-11-01 22:14:54 INFO  TestBase:22 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 22:15:00 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 22:15:00 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 1 time(s).
+2017-11-01 22:15:00 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 22:15:00 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 2 time(s).
+2017-11-01 22:15:00 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 22:15:00 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 3 time(s).
+2017-11-01 22:15:00 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 22:15:00 INFO  TestBase:22 - ----------------Starting Test TC002_VerfiyRegistration----------------
+2017-11-01 22:15:00 INFO  Retry:38 - Retrying test verfiyRegistration with status FAILURE for the 1 time(s).
+2017-11-01 22:15:00 INFO  TestBase:22 - ----------------Starting Test TC002_VerfiyRegistration----------------
+2017-11-01 22:15:00 INFO  Retry:38 - Retrying test verfiyRegistration with status FAILURE for the 2 time(s).
+2017-11-01 22:15:00 INFO  TestBase:22 - ----------------Starting Test TC002_VerfiyRegistration----------------
+2017-11-01 22:15:00 INFO  Retry:38 - Retrying test verfiyRegistration with status FAILURE for the 3 time(s).
+2017-11-01 22:15:00 INFO  TestBase:22 - ----------------Starting Test TC002_VerfiyRegistration----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 1 time(s).
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 2 time(s).
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 3 time(s).
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:04 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:15:08 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Closing the Browser and driver instance!
+2017-11-01 22:15:08 INFO  TestBase:22 - Closing the Browser and driver instance!
+2017-11-01 22:15:08 INFO  TestBase:22 - Closing the Browser and driver instance!
+2017-11-01 22:15:09 INFO  TestBase:22 - Opening Browserchrome
+2017-11-01 22:15:12 INFO  TestBase:22 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 22:15:15 INFO  TestBase:20 - Opening Browserchrome
+2017-11-01 22:15:23 INFO  TestBase:20 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 22:50:20 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening Browserchrome
+2017-11-01 22:50:26 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 22:51:20 INFO  TestBase:22 - Opening Browserchrome
+2017-11-01 22:51:24 INFO  TestBase:22 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 22:51:39 INFO  TestBase:22 - Opening Browserchrome
+2017-11-01 22:51:46 INFO  TestBase:22 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 22:52:04 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 22:52:08 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:52:08 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (65a1129b469fdfdba1960eb9e7ff99bd)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:52:08 INFO  RegisterPage:90 - Entered email address test@test.com and the object is:[[ChromeDriver: chrome on XP (65a1129b469fdfdba1960eb9e7ff99bd)] -> xpath: //*[@id='email']]
+2017-11-01 22:52:09 INFO  RegisterPage:90 - Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on XP (65a1129b469fdfdba1960eb9e7ff99bd)] -> xpath: //*[@id='passwd']]
+2017-11-01 22:52:11 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (65a1129b469fdfdba1960eb9e7ff99bd)] -> id: SubmitLogin]
+2017-11-01 22:52:16 INFO  RegisterPage:90 - Authentication Faiulre message text is: Authentication failed.
+2017-11-01 22:52:16 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 22:52:16 INFO  TestBase:22 - ----------------Starting Test TC002_VerfiyRegistration----------------
+2017-11-01 22:52:20 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:52:20 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:52:21 INFO  RegisterPage:90 - Entered email address Jagjeet_1509556820561@gmail.com and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: email_create]
+2017-11-01 22:52:21 INFO  RegisterPage:90 - Clicked on Register1 Button at Home page & the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: SubmitCreate]
+2017-11-01 22:52:24 INFO  RegisterPage:90 - Entered First Name Jagjeet and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: customer_firstname]
+2017-11-01 22:52:24 INFO  RegisterPage:90 - Entered Last Name Singh and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: customer_lastname]
+2017-11-01 22:52:25 INFO  RegisterPage:90 - Entered Password Password1 and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: passwd]
+2017-11-01 22:52:25 INFO  RegisterPage:90 - Entered Address First Name Add Fir Name and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: firstname]
+2017-11-01 22:52:25 INFO  RegisterPage:90 - Entered Address Last Name Add Last Name and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: lastname]
+2017-11-01 22:52:26 INFO  RegisterPage:90 - Entered Address Line 1 Address Line 1 and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: address1]
+2017-11-01 22:52:26 INFO  RegisterPage:90 - Entered city  City and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: city]
+2017-11-01 22:52:26 INFO  RegisterPage:90 - Selected State Alabama and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: id_state]
+2017-11-01 22:52:27 INFO  RegisterPage:90 - Entered postcode 12345 and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: postcode]
+2017-11-01 22:52:27 INFO  RegisterPage:90 - Selected Country United States and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: id_country]
+2017-11-01 22:52:27 INFO  RegisterPage:90 - Entered mobile 1234567890 and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: phone_mobile]
+2017-11-01 22:52:27 INFO  RegisterPage:90 - Entered alias Alias and the object is:[[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> id: alias]
+2017-11-01 22:52:46 INFO  RegisterPage:90 - Clicked on Register2 Button at Home page & the object is:Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2017-11-01 22:52:46 INFO  RegisterPage:90 - Registration success element found. Object is: [[ChromeDriver: chrome on XP (43d0450b69ced9a82098438fd2514adf)] -> xpath: //a[@title='View my customer account']/span]
+2017-11-01 22:52:46 INFO  RegisterPage:90 - Registration success message text is:Jagjeet Singh
+2017-11-01 22:52:46 INFO  TestBase:22 - ----------------Completed Test TC002_VerfiyRegistration----------------
+2017-11-01 22:52:47 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:52:51 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:52:51 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:52:51 INFO  RegisterPage:90 - Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='email']]
+2017-11-01 22:52:52 INFO  RegisterPage:90 - Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='passwd']]
+2017-11-01 22:53:10 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-11-01 22:53:10 INFO  RegisterPage:90 - Logout element found. Object is: [[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //a[@class='logout' and @title='Log me out']]
+2017-11-01 22:53:29 INFO  RegisterPage:90 - Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'
+2017-11-01 22:53:29 INFO  TestBase:22 - ----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:53:29 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:53:32 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:53:32 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:53:33 INFO  RegisterPage:90 - Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='email']]
+2017-11-01 22:53:33 INFO  RegisterPage:90 - Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='passwd']]
+2017-11-01 22:53:35 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> id: SubmitLogin]
+2017-11-01 22:53:50 INFO  RegisterPage:90 - Logout Link element not found.
+2017-11-01 22:53:50 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 1 time(s).
+2017-11-01 22:53:50 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:53:54 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:53:54 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:53:54 INFO  RegisterPage:90 - Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='email']]
+2017-11-01 22:53:55 INFO  RegisterPage:90 - Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='passwd']]
+2017-11-01 22:53:57 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> id: SubmitLogin]
+2017-11-01 22:54:12 INFO  RegisterPage:90 - Logout Link element not found.
+2017-11-01 22:54:12 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 2 time(s).
+2017-11-01 22:54:12 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:54:15 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:54:15 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:54:15 INFO  RegisterPage:90 - Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='email']]
+2017-11-01 22:54:16 INFO  RegisterPage:90 - Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='passwd']]
+2017-11-01 22:54:18 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> id: SubmitLogin]
+2017-11-01 22:54:33 INFO  RegisterPage:90 - Logout Link element not found.
+2017-11-01 22:54:33 INFO  Retry:38 - Retrying test verifyLoginWithInvalidCredentials with status FAILURE for the 3 time(s).
+2017-11-01 22:54:33 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:54:36 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:54:36 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:54:36 INFO  RegisterPage:90 - Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='email']]
+2017-11-01 22:54:37 INFO  RegisterPage:90 - Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='passwd']]
+2017-11-01 22:54:39 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> id: SubmitLogin]
+2017-11-01 22:54:54 INFO  RegisterPage:90 - Logout Link element not found.
+2017-11-01 22:54:54 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:54:57 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:54:57 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:54:58 INFO  RegisterPage:90 - Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='email']]
+2017-11-01 22:54:58 INFO  RegisterPage:90 - Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='passwd']]
+2017-11-01 22:55:16 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-11-01 22:55:16 INFO  RegisterPage:90 - Logout element found. Object is: [[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //a[@class='logout' and @title='Log me out']]
+2017-11-01 22:55:34 INFO  RegisterPage:90 - Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'
+2017-11-01 22:55:34 INFO  TestBase:22 - ----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:55:35 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:55:38 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:55:38 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 22:55:38 INFO  RegisterPage:90 - Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='email']]
+2017-11-01 22:55:39 INFO  RegisterPage:90 - Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //*[@id='passwd']]
+2017-11-01 22:55:56 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-11-01 22:55:56 INFO  RegisterPage:90 - Logout element found. Object is: [[ChromeDriver: chrome on XP (22d086496f26e089e34fb76a6345f371)] -> xpath: //a[@class='logout' and @title='Log me out']]
+2017-11-01 22:56:16 INFO  RegisterPage:90 - Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'
+2017-11-01 22:56:16 INFO  TestBase:22 - ----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:56:16 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:56:18 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 22:56:19 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:56:19 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:56:19 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:56:19 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:56:19 INFO  TestBase:22 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 22:56:21 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Closing the Browser and driver instance!
+2017-11-01 22:56:23 INFO  TestBase:22 - Closing the Browser and driver instance!
+2017-11-01 22:56:24 INFO  TestBase:22 - Closing the Browser and driver instance!
+2017-11-01 22:56:24 INFO  TestBase:22 - Opening Browserchrome
+2017-11-01 22:56:33 INFO  TestBase:22 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 23:03:58 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening Browserchrome
+2017-11-01 23:04:03 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening URLhttp://automationpractice.com/index.php
+2017-11-01 23:06:15 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 23:06:30 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:06:30 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (e949d9f35aa2c9357b4b8d8c5241448d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:06:30 INFO  RegisterPage:90 - Entered email address test@test.com and the object is:[[ChromeDriver: chrome on XP (e949d9f35aa2c9357b4b8d8c5241448d)] -> xpath: //*[@id='email']]
+2017-11-01 23:06:31 INFO  RegisterPage:90 - Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on XP (e949d9f35aa2c9357b4b8d8c5241448d)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:06:33 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (e949d9f35aa2c9357b4b8d8c5241448d)] -> id: SubmitLogin]
+2017-11-01 23:06:38 INFO  RegisterPage:90 - Authentication Faiulre message text is: Authentication failed.
+2017-11-01 23:06:38 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 23:06:40 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Closing the Browser and driver instance!
+2017-11-01 23:14:37 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening Browser chrome
+2017-11-01 23:14:41 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening URL http://automationpractice.com/index.php
+2017-11-01 23:14:56 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 23:15:00 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:15:00 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:15:00 INFO  RegisterPage:90 - Entered email address test@test.com and the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='email']]
+2017-11-01 23:15:01 INFO  RegisterPage:90 - Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:15:03 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> id: SubmitLogin]
+2017-11-01 23:15:08 INFO  RegisterPage:90 - Authentication Faiulre message text is: Authentication failed.
+2017-11-01 23:15:08 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 23:15:10 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Closing the Browser and driver instance!
+2017-11-01 23:15:10 INFO  TestBase:22 - Opening Browser chrome
+2017-11-01 23:15:14 INFO  TestBase:22 - Opening URL http://automationpractice.com/index.php
+2017-11-01 23:15:31 INFO  TestBase:22 - ----------------Starting Test TC002_VerfiyRegistration----------------
+2017-11-01 23:15:35 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:15:35 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:15:36 INFO  RegisterPage:90 - Entered email address Jagjeet_1509558276951@gmail.com and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: email_create]
+2017-11-01 23:15:36 INFO  RegisterPage:90 - Clicked on Register1 Button at Home page & the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: SubmitCreate]
+2017-11-01 23:15:38 INFO  RegisterPage:90 - Entered First Name Jagjeet and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: customer_firstname]
+2017-11-01 23:15:38 INFO  RegisterPage:90 - Entered Last Name Singh and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: customer_lastname]
+2017-11-01 23:15:39 INFO  RegisterPage:90 - Entered Password Password1 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: passwd]
+2017-11-01 23:15:39 INFO  RegisterPage:90 - Entered Address First Name Add Fir Name and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: firstname]
+2017-11-01 23:15:39 INFO  RegisterPage:90 - Entered Address Last Name Add Last Name and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: lastname]
+2017-11-01 23:15:40 INFO  RegisterPage:90 - Entered Address Line 1 Address Line 1 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: address1]
+2017-11-01 23:15:40 INFO  RegisterPage:90 - Entered city  City and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: city]
+2017-11-01 23:15:40 INFO  RegisterPage:90 - Selected State Alabama and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: id_state]
+2017-11-01 23:15:40 INFO  RegisterPage:90 - Entered postcode 12345 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: postcode]
+2017-11-01 23:15:41 INFO  RegisterPage:90 - Selected Country United States and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: id_country]
+2017-11-01 23:15:41 INFO  RegisterPage:90 - Entered mobile 1234567890 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: phone_mobile]
+2017-11-01 23:15:41 INFO  RegisterPage:90 - Entered alias Alias and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: alias]
+2017-11-01 23:16:00 INFO  RegisterPage:90 - Clicked on Register2 Button at Home page & the object is:Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2017-11-01 23:16:00 INFO  RegisterPage:90 - Registration success element found. Object is: [[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> xpath: //a[@title='View my customer account']/span]
+2017-11-01 23:16:00 INFO  RegisterPage:90 - Registration success message text is:Jagjeet Singh
+2017-11-01 23:16:00 INFO  TestBase:22 - ----------------Completed Test TC002_VerfiyRegistration----------------
+2017-11-01 23:16:02 INFO  TestBase:22 - Closing the Browser and driver instance!
+2017-11-01 23:16:02 INFO  TestBase:23 - Opening Browser chrome
+2017-11-01 23:16:05 INFO  TestBase:23 - Opening URL http://automationpractice.com/index.php
+2017-11-01 23:16:20 INFO  TestBase:23 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:16:24 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:16:24 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:16:24 INFO  RegisterPage:90 - Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]
+2017-11-01 23:16:24 INFO  RegisterPage:90 - Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:16:41 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-11-01 23:16:41 INFO  RegisterPage:90 - Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]
+2017-11-01 23:17:01 INFO  RegisterPage:90 - Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'
+2017-11-01 23:17:01 INFO  TestBase:23 - ----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:17:01 INFO  TestBase:23 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:17:04 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:17:04 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:17:04 INFO  RegisterPage:90 - Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]
+2017-11-01 23:17:05 INFO  RegisterPage:90 - Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:17:07 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> id: SubmitLogin]
+2017-11-01 23:17:22 INFO  RegisterPage:90 - Logout Link element not found.
+2017-11-01 23:17:22 INFO  TestBase:23 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:17:26 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:17:26 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:17:26 INFO  RegisterPage:90 - Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]
+2017-11-01 23:17:26 INFO  RegisterPage:90 - Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:17:44 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-11-01 23:17:44 INFO  RegisterPage:90 - Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]
+2017-11-01 23:18:05 INFO  RegisterPage:90 - Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'
+2017-11-01 23:18:05 INFO  TestBase:23 - ----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:18:05 INFO  TestBase:23 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:18:09 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:18:09 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:18:09 INFO  RegisterPage:90 - Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]
+2017-11-01 23:18:10 INFO  RegisterPage:90 - Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:18:27 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-11-01 23:18:27 INFO  RegisterPage:90 - Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]
+2017-11-01 23:18:52 INFO  RegisterPage:90 - Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'
+2017-11-01 23:18:52 INFO  TestBase:23 - ----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:18:53 INFO  TestBase:23 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:18:55 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:18:56 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:18:56 INFO  RegisterPage:90 - Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]
+2017-11-01 23:18:56 INFO  RegisterPage:90 - Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:19:14 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-11-01 23:19:14 INFO  RegisterPage:90 - Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]
+2017-11-01 23:19:33 INFO  RegisterPage:90 - Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'
+2017-11-01 23:19:33 INFO  TestBase:23 - ----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:19:33 INFO  TestBase:23 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:19:37 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:19:37 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:19:38 INFO  RegisterPage:90 - Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]
+2017-11-01 23:19:38 INFO  RegisterPage:90 - Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:19:56 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-11-01 23:19:56 INFO  RegisterPage:90 - Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]
+2017-11-01 23:20:15 INFO  RegisterPage:90 - Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'
+2017-11-01 23:20:15 INFO  TestBase:23 - ----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:20:16 INFO  TestBase:23 - ----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------
+2017-11-01 23:20:17 INFO  TestBase:23 - Closing the Browser and driver instance!
+2017-11-01 23:20:17 INFO  TestBase:22 - Opening Browser chrome
+2017-11-01 23:20:21 INFO  TestBase:22 - Opening URL http://automationpractice.com/index.php
+2017-11-01 23:20:36 INFO  TestBase:22 - ----------------Statring Test TC001_VerifyProductTitle----------------
+2017-11-01 23:20:41 INFO  ProductListigPage:24 - Main category choosen as:Women
+2017-11-01 23:20:41 INFO  ProductListigPage:24 - Sub category choosen as:Tops
+2017-11-01 23:20:45 INFO  ProductListigPage:24 - Product Type choosen as:T-shirts
+2017-11-01 23:20:50 INFO  ProductListigPage:24 - Product Selected as:Faded Short Sleeve T-shirts
+2017-11-01 23:20:50 INFO  ProductDetailsPage:32 - Returning Product Title:Faded Short Sleeve T-shirts
+2017-11-01 23:20:50 INFO  TestBase:22 - ----------------Finished Test TC001_VerifyProductTitle----------------
+2017-11-01 23:20:52 INFO  TestBase:22 - Closing the Browser and driver instance!
+2017-11-01 23:20:52 INFO  TestBase:20 - Opening Browser chrome
+2017-11-01 23:20:55 INFO  TestBase:20 - Opening URL http://automationpractice.com/index.php
+2017-11-01 23:21:11 INFO  TestBase:20 - ----------------Statring Test TC002_VerifyFacebookShareLink----------------
+2017-11-01 23:21:16 INFO  ProductDetailsPage:32 - Clicked on Facebook Share link and object is: [[ChromeDriver: chrome on XP (6396ee71e7eae866b37f254ff3ca9f09)] -> xpath: //button[@class= 'btn btn-default btn-facebook']]
+2017-11-01 23:21:16 INFO  ProductDetailsPage:32 - Switched to Facebook popup.
+2017-11-01 23:21:19 INFO  ProductDetailsPage:32 - Facebook Popup header text is: Log in to your Facebook account to share.
+Email address or phone number:
+Password:
+Forgotten account?
+Create New Account
+2017-11-01 23:21:19 INFO  TestBase:20 - ----------------Finished Test TC002_VerifyFacebookShareLink----------------
+2017-11-01 23:21:21 INFO  TestBase:20 - Closing the Browser and driver instance!
+2017-11-01 23:52:34 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening Browser chrome
+2017-11-01 23:52:41 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Opening URL http://automationpractice.com/index.php
+2017-11-01 23:54:25 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 23:54:31 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-01 23:54:31 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (03eaf7e79632eaf4a27fd17e9de1931e)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-01 23:54:31 INFO  RegisterPage:90 - Entered email address test@test.com and the object is:[[ChromeDriver: chrome on WIN8_1 (03eaf7e79632eaf4a27fd17e9de1931e)] -> xpath: //*[@id='email']]
+2017-11-01 23:54:31 INFO  RegisterPage:90 - Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on WIN8_1 (03eaf7e79632eaf4a27fd17e9de1931e)] -> xpath: //*[@id='passwd']]
+2017-11-01 23:54:34 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on WIN8_1 (03eaf7e79632eaf4a27fd17e9de1931e)] -> id: SubmitLogin]
+2017-11-01 23:54:39 INFO  RegisterPage:90 - Authentication Faiulre message text is: Authentication failed.
+2017-11-01 23:54:39 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - ----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-01 23:54:41 INFO  TC001_VerifyLoginWithInvalidCredentials:24 - Closing the Browser and driver instance!
+2017-11-01 23:54:41 INFO  TestBase:22 - Opening Browser chrome
+2017-11-01 23:54:45 INFO  TestBase:22 - Opening URL http://automationpractice.com/index.php
+2017-11-01 23:55:01 INFO  TestBase:22 - ----------------Starting Test TC002_VerfiyRegistration----------------
+2017-11-01 23:55:02 INFO  TestBase:22 - Closing the Browser and driver instance!
+2017-11-01 23:55:02 INFO  TestBase:23 - Opening Browser chrome
+2017-11-01 23:55:06 INFO  TestBase:23 - Opening URL http://automationpractice.com/index.php

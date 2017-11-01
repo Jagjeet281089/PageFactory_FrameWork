@@ -2733,3 +2733,28 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected = 
 2017-10-27 23:18:01,433 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Selenium\PageFactory_FrameWork\uiAutomation\src\main\resources
 2017-10-27 23:18:01,437 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-10-27 23:18:01,438 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Selenium\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-10-29 19:11:32,591 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:11:32,591 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-10-29 19:11:32,591 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:11:32,591 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-10-29 19:12:47,999 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:12:47,999 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-10-29 19:12:47,999 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:12:47,999 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-10-29 19:13:29,057 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:13:29,057 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-10-29 19:13:29,057 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:13:29,057 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-10-29 19:13:50,508 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:13:50,508 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-10-29 19:13:50,524 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:13:50,524 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-10-29 19:14:13,740 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:14:13,740 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-10-29 19:14:13,740 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:14:13,740 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-10-29 19:14:19,192 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:14:19,192 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-10-29 19:14:19,192 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-29 19:14:19,192 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-10-29 19:14:30,090 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.

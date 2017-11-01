@@ -2,11 +2,12 @@ package com.test.automation.uiAutomation.registerPage;
 
 import java.io.IOException;
 
+
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.SkipException;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -29,7 +30,7 @@ public class TC003_VerifyLoginWithDifferentCredentials extends TestBase {
 		return LoginData;
 	}
 	
-	@BeforeTest
+	@BeforeClass
 	public void setup() throws IOException {
 		init();
 	}
@@ -57,7 +58,7 @@ public class TC003_VerifyLoginWithDifferentCredentials extends TestBase {
 		log("----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------");
 	}
 
-	@AfterTest
+	@AfterClass
 	public void endTest() {
 		end();
 	}

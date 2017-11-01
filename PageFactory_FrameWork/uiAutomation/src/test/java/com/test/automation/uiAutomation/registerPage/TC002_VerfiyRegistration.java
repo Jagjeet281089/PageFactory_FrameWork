@@ -4,9 +4,9 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
 import com.test.automation.uiAutomation.uiActions.HomePage;
@@ -23,7 +23,7 @@ public class TC002_VerfiyRegistration extends TestBase {
 		Reporter.log(data);
 	}
 	
-	@BeforeTest
+	@BeforeClass
 	public void setup() throws IOException {
 		init();
 	}
@@ -40,7 +40,7 @@ public class TC002_VerfiyRegistration extends TestBase {
 		log("----------------Completed Test TC002_VerfiyRegistration----------------");
 	}
 
-	@AfterTest
+	@AfterClass
 	public void endTest() {
 		end();
 	}

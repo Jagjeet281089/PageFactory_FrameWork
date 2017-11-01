@@ -59,12 +59,12 @@ public class TestBase {
 
 		if(browser.equalsIgnoreCase("firefox")){
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
-			log("Opening Browser"+ OR.getProperty("browser"));
+			log("Opening Browser "+ OR.getProperty("browser"));
 			driver = new FirefoxDriver();	
 		}
 		else if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-			log("Opening Browser"+ OR.getProperty("browser"));
+			log("Opening Browser "+ OR.getProperty("browser"));
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
@@ -72,7 +72,7 @@ public class TestBase {
 	
 	//Navigates to URL
 	public void getURL(String url) {
-		log("Opening URL"+ OR.getProperty("url"));
+		log("Opening URL "+ OR.getProperty("url"));
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	}
@@ -120,7 +120,6 @@ public class TestBase {
 			e.printStackTrace();
 		}
 	}
-	
 	
 	public Iterator<String> getAllWindows(){
 		Set<String> windowsIds = driver.getWindowHandles();

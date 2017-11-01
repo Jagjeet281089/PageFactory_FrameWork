@@ -5,8 +5,8 @@ import java.util.Iterator;
 
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
@@ -21,7 +21,7 @@ public class TC002_VerifyFacebookShareLink extends TestBase{
 		Reporter.log(data);
 	}
 
-	@BeforeTest
+	@BeforeClass
 	public void setup() throws IOException {
 		init();
 	}
@@ -49,7 +49,7 @@ public class TC002_VerifyFacebookShareLink extends TestBase{
 		log("----------------Finished Test TC002_VerifyFacebookShareLink----------------");
 	}
 
-	@AfterTest
+	@AfterClass
 	public void endTest(){
 		end();
 	}
