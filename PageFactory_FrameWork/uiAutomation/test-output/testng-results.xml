@@ -14,16 +14,16 @@
       <![CDATA[SignIn link clicked on the page nav Bar.]]>
     </line>
     <line>
-      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered email address test@test.com and the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='email']]]]>
+      <![CDATA[Entered email address test@test.com and the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='email']]]]>
     </line>
     <line>
-      <![CDATA[Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='passwd']]]]>
+      <![CDATA[Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='passwd']]]]>
     </line>
     <line>
-      <![CDATA[Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> id: SubmitLogin]]]>
+      <![CDATA[Clicked on login Submit button & the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> id: SubmitLogin]]]>
     </line>
     <line>
       <![CDATA[Authentication Faiulre message text is: Authentication failed.]]>
@@ -32,7 +32,7 @@
       <![CDATA[----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_15_08.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_15_08.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_25_41.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_25_41.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Closing the Browser and driver instance!]]>
@@ -50,55 +50,55 @@
       <![CDATA[SignIn link clicked on the page nav Bar.]]>
     </line>
     <line>
-      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered email address Jagjeet_1509558276951@gmail.com and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: email_create]]]>
+      <![CDATA[Entered email address Jagjeet_1510138501982@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: email_create]]]>
     </line>
     <line>
-      <![CDATA[Clicked on Register1 Button at Home page & the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: SubmitCreate]]]>
+      <![CDATA[Clicked on Register1 Button at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: SubmitCreate]]]>
     </line>
     <line>
-      <![CDATA[Entered First Name Jagjeet and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: customer_firstname]]]>
+      <![CDATA[Entered First Name Jagjeet and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: customer_firstname]]]>
     </line>
     <line>
-      <![CDATA[Entered Last Name Singh and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: customer_lastname]]]>
+      <![CDATA[Entered Last Name Singh and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: customer_lastname]]]>
     </line>
     <line>
-      <![CDATA[Entered Password Password1 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: passwd]]]>
+      <![CDATA[Entered Password Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: passwd]]]>
     </line>
     <line>
-      <![CDATA[Entered Address First Name Add Fir Name and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: firstname]]]>
+      <![CDATA[Entered Address First Name Add Fir Name and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: firstname]]]>
     </line>
     <line>
-      <![CDATA[Entered Address Last Name Add Last Name and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: lastname]]]>
+      <![CDATA[Entered Address Last Name Add Last Name and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: lastname]]]>
     </line>
     <line>
-      <![CDATA[Entered Address Line 1 Address Line 1 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: address1]]]>
+      <![CDATA[Entered Address Line 1 Address Line 1 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: address1]]]>
     </line>
     <line>
-      <![CDATA[Entered city  City and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: city]]]>
+      <![CDATA[Entered city  City and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: city]]]>
     </line>
     <line>
-      <![CDATA[Selected State Alabama and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: id_state]]]>
+      <![CDATA[Selected State Alabama and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: id_state]]]>
     </line>
     <line>
-      <![CDATA[Entered postcode 12345 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: postcode]]]>
+      <![CDATA[Entered postcode 12345 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: postcode]]]>
     </line>
     <line>
-      <![CDATA[Selected Country United States and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: id_country]]]>
+      <![CDATA[Selected Country United States and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: id_country]]]>
     </line>
     <line>
-      <![CDATA[Entered mobile 1234567890 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: phone_mobile]]]>
+      <![CDATA[Entered mobile 1234567890 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: phone_mobile]]]>
     </line>
     <line>
-      <![CDATA[Entered alias Alias and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: alias]]]>
+      <![CDATA[Entered alias Alias and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: alias]]]>
     </line>
     <line>
       <![CDATA[Clicked on Register2 Button at Home page & the object is:Proxy element for: DefaultElementLocator 'By.id: submitAccount']]>
     </line>
     <line>
-      <![CDATA[Registration success element found. Object is: [[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> xpath: //a[@title='View my customer account']/span]]]>
+      <![CDATA[Registration success element found. Object is: [[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> xpath: //a[@title='View my customer account']/span]]]>
     </line>
     <line>
       <![CDATA[Registration success message text is:Jagjeet Singh]]>
@@ -107,7 +107,7 @@
       <![CDATA[----------------Completed Test TC002_VerfiyRegistration----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_01_11_2017_11_16_00.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_01_11_2017_11_16_00.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_08_11_2017_04_26_24.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_08_11_2017_04_26_24.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Closing the Browser and driver instance!]]>
@@ -125,19 +125,19 @@
       <![CDATA[SignIn link clicked on the page nav Bar.]]>
     </line>
     <line>
-      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+      <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
     </line>
     <line>
-      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
     </line>
     <line>
       <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
     </line>
     <line>
-      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
     </line>
     <line>
       <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -146,7 +146,7 @@
       <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_17_01.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_17_01.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_23.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_23.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
@@ -155,22 +155,25 @@
       <![CDATA[SignIn link clicked on the page nav Bar.]]>
     </line>
     <line>
-      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+      <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
     </line>
     <line>
-      <![CDATA[Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+      <![CDATA[Entered email address Password2 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
     </line>
     <line>
-      <![CDATA[Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> id: SubmitLogin]]]>
+      <![CDATA[Clicked on login Submit button & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> id: SubmitLogin]]]>
     </line>
     <line>
       <![CDATA[Logout Link element not found.]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_17_22.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_17_22.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_42.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_42.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\blank_08_11_2017_04_27_43.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\blank_08_11_2017_04_27_43.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
@@ -179,19 +182,19 @@
       <![CDATA[SignIn link clicked on the page nav Bar.]]>
     </line>
     <line>
-      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+      <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
     </line>
     <line>
-      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
     </line>
     <line>
       <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
     </line>
     <line>
-      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
     </line>
     <line>
       <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -200,7 +203,7 @@
       <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_18_05.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_18_05.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_20.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_20.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
@@ -209,19 +212,19 @@
       <![CDATA[SignIn link clicked on the page nav Bar.]]>
     </line>
     <line>
-      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+      <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
     </line>
     <line>
-      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
     </line>
     <line>
       <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
     </line>
     <line>
-      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
     </line>
     <line>
       <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -230,7 +233,7 @@
       <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_18_52.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_18_52.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_57.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_57.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
@@ -239,19 +242,19 @@
       <![CDATA[SignIn link clicked on the page nav Bar.]]>
     </line>
     <line>
-      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+      <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
     </line>
     <line>
-      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
     </line>
     <line>
       <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
     </line>
     <line>
-      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
     </line>
     <line>
       <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -260,7 +263,7 @@
       <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_19_33.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_19_33.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_29_36.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_29_36.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
@@ -269,19 +272,19 @@
       <![CDATA[SignIn link clicked on the page nav Bar.]]>
     </line>
     <line>
-      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+      <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
     </line>
     <line>
-      <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+      <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
     </line>
     <line>
-      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+      <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
     </line>
     <line>
       <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
     </line>
     <line>
-      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+      <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
     </line>
     <line>
       <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -290,7 +293,7 @@
       <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_20_15.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_20_15.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_30_13.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_30_13.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
@@ -332,7 +335,7 @@
       <![CDATA[----------------Finished Test TC001_VerifyProductTitle----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_01_11_2017_11_20_50.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_01_11_2017_11_20_50.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_08_11_2017_04_30_37.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_08_11_2017_04_30_37.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Closing the Browser and driver instance!]]>
@@ -347,7 +350,7 @@
       <![CDATA[----------------Statring Test TC002_VerifyFacebookShareLink----------------]]>
     </line>
     <line>
-      <![CDATA[Clicked on Facebook Share link and object is: [[ChromeDriver: chrome on XP (6396ee71e7eae866b37f254ff3ca9f09)] -> xpath: //button[@class= 'btn btn-default btn-facebook']]]]>
+      <![CDATA[Clicked on Facebook Share link and object is: [[ChromeDriver: chrome on WIN8_1 (33f2d10d8cfada0bc74f45e254b4a4c0)] -> xpath: //button[@class= 'btn btn-default btn-facebook']]]]>
     </line>
     <line>
       <![CDATA[Switched to Facebook popup.]]>
@@ -363,18 +366,18 @@ Create New Account]]>
       <![CDATA[----------------Finished Test TC002_VerifyFacebookShareLink----------------]]>
     </line>
     <line>
-      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_01_11_2017_11_21_19.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_01_11_2017_11_21_19.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_08_11_2017_04_30_56.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_08_11_2017_04_30_56.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
       <![CDATA[Closing the Browser and driver instance!]]>
     </line>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="404084" started-at="2017-11-01T17:44:37Z" finished-at="2017-11-01T17:51:21Z">
+  <suite name="Regression Suite" duration-ms="356495" started-at="2017-11-08T10:55:02Z" finished-at="2017-11-08T11:00:58Z">
     <groups>
     </groups>
-    <test name="Register Page Tests" duration-ms="340365" started-at="2017-11-01T17:44:37Z" finished-at="2017-11-01T17:50:17Z">
+    <test name="Register Page Tests" duration-ms="313167" started-at="2017-11-08T10:55:02Z" finished-at="2017-11-08T11:00:15Z">
       <class name="com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@12108b5]" name="setup" is-config="true" duration-ms="19462" started-at="2017-11-01T23:14:37Z" finished-at="2017-11-01T23:14:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47]" name="setup" is-config="true" duration-ms="29392" started-at="2017-11-08T16:25:02Z" finished-at="2017-11-08T16:25:31Z">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser chrome]]>
@@ -384,7 +387,18 @@ Create New Account]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@12108b5]" name="verifyLoginWithInvalidCredentials" duration-ms="12071" started-at="2017-11-01T23:14:56Z" finished-at="2017-11-01T23:15:08Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2017-11-08T16:25:31Z" finished-at="2017-11-08T16:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.verifyLoginWithInvalidCredentials() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47]" name="verifyLoginWithInvalidCredentials" duration-ms="9767" started-at="2017-11-08T16:25:31Z" finished-at="2017-11-08T16:25:41Z">
           <reporter-output>
             <line>
               <![CDATA[----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------]]>
@@ -393,16 +407,16 @@ Create New Account]]>
               <![CDATA[SignIn link clicked on the page nav Bar.]]>
             </line>
             <line>
-              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered email address test@test.com and the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='email']]]]>
+              <![CDATA[Entered email address test@test.com and the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='email']]]]>
             </line>
             <line>
-              <![CDATA[Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> xpath: //*[@id='passwd']]]]>
+              <![CDATA[Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='passwd']]]]>
             </line>
             <line>
-              <![CDATA[Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (8a52af2679429504363b97a32ab126c3)] -> id: SubmitLogin]]]>
+              <![CDATA[Clicked on login Submit button & the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> id: SubmitLogin]]]>
             </line>
             <line>
               <![CDATA[Authentication Faiulre message text is: Authentication failed.]]>
@@ -411,11 +425,22 @@ Create New Account]]>
               <![CDATA[----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_15_08.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_15_08.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_25_41.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_25_41.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@12108b5]" name="endTest" is-config="true" duration-ms="1652" started-at="2017-11-01T23:15:09Z" finished-at="2017-11-01T23:15:10Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-08T16:25:41Z" finished-at="2017-11-08T16:25:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=TC001_VerifyLoginWithInvalidCredentials.verifyLoginWithInvalidCredentials()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47] output=----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47]" name="endTest" is-config="true" duration-ms="2718" started-at="2017-11-08T16:25:41Z" finished-at="2017-11-08T16:25:44Z">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser and driver instance!]]>
@@ -424,7 +449,7 @@ Create New Account]]>
         </test-method> <!-- endTest -->
       </class> <!-- com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials -->
       <class name="com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="setup" is-config="true" duration-ms="17275" started-at="2017-11-01T23:16:02Z" finished-at="2017-11-01T23:16:19Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="setup" is-config="true" duration-ms="16721" started-at="2017-11-08T16:26:26Z" finished-at="2017-11-08T16:26:43Z">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser chrome]]>
@@ -434,7 +459,18 @@ Create New Account]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="verifyLoginWithInvalidCredentials" duration-ms="40434" started-at="2017-11-01T23:16:20Z" data-provider="LoginData" finished-at="2017-11-01T23:17:01Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:26:46Z" finished-at="2017-11-08T16:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="verifyLoginWithInvalidCredentials" duration-ms="37182" started-at="2017-11-08T16:26:46Z" data-provider="LoginData" finished-at="2017-11-08T16:27:23Z">
           <params>
             <param index="0">
               <value>
@@ -460,19 +496,19 @@ Create New Account]]>
               <![CDATA[SignIn link clicked on the page nav Bar.]]>
             </line>
             <line>
-              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+              <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
             </line>
             <line>
-              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
             </line>
             <line>
               <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
             </line>
             <line>
-              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
             </line>
             <line>
               <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -481,11 +517,33 @@ Create New Account]]>
               <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_17_01.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_17_01.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_23.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_23.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="FAIL" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="verifyLoginWithInvalidCredentials" duration-ms="20869" started-at="2017-11-01T23:17:01Z" data-provider="LoginData" finished-at="2017-11-01T23:17:22Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-08T16:27:23Z" finished-at="2017-11-08T16:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:27:23Z" finished-at="2017-11-08T16:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236] output=----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="verifyLoginWithInvalidCredentials" duration-ms="19291" started-at="2017-11-08T16:27:23Z" data-provider="LoginData" finished-at="2017-11-08T16:27:42Z">
           <params>
             <param index="0">
               <value>
@@ -515,11 +573,11 @@ Create New Account]]>
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:305)
 	at org.testng.Assert.assertEquals(Assert.java:315)
-	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:52)
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
@@ -552,26 +610,51 @@ Create New Account]]>
               <![CDATA[SignIn link clicked on the page nav Bar.]]>
             </line>
             <line>
-              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+              <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
             </line>
             <line>
-              <![CDATA[Entered email address Password2 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+              <![CDATA[Entered email address Password2 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
             </line>
             <line>
-              <![CDATA[Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> id: SubmitLogin]]]>
+              <![CDATA[Clicked on login Submit button & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> id: SubmitLogin]]]>
             </line>
             <line>
               <![CDATA[Logout Link element not found.]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_17_22.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_17_22.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_42.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_42.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="verifyLoginWithInvalidCredentials" duration-ms="42438" started-at="2017-11-01T23:17:22Z" data-provider="LoginData" finished-at="2017-11-01T23:18:05Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="afterMethod" is-config="true" duration-ms="365" started-at="2017-11-08T16:27:43Z" finished-at="2017-11-08T16:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=FAILURE method=TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236] output=----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\blank_08_11_2017_04_27_43.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\blank_08_11_2017_04_27_43.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:27:43Z" finished-at="2017-11-08T16:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="verifyLoginWithInvalidCredentials" duration-ms="36854" started-at="2017-11-08T16:27:43Z" data-provider="LoginData" finished-at="2017-11-08T16:28:20Z">
           <params>
             <param index="0">
               <value>
@@ -597,19 +680,19 @@ Create New Account]]>
               <![CDATA[SignIn link clicked on the page nav Bar.]]>
             </line>
             <line>
-              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+              <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
             </line>
             <line>
-              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
             </line>
             <line>
               <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
             </line>
             <line>
-              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
             </line>
             <line>
               <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -618,11 +701,33 @@ Create New Account]]>
               <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_18_05.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_18_05.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_20.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_20.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="verifyLoginWithInvalidCredentials" duration-ms="47018" started-at="2017-11-01T23:18:05Z" data-provider="LoginData" finished-at="2017-11-01T23:18:52Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-08T16:28:20Z" finished-at="2017-11-08T16:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:28:20Z" finished-at="2017-11-08T16:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236] output=----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="verifyLoginWithInvalidCredentials" duration-ms="36932" started-at="2017-11-08T16:28:20Z" data-provider="LoginData" finished-at="2017-11-08T16:28:57Z">
           <params>
             <param index="0">
               <value>
@@ -648,19 +753,19 @@ Create New Account]]>
               <![CDATA[SignIn link clicked on the page nav Bar.]]>
             </line>
             <line>
-              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+              <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
             </line>
             <line>
-              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
             </line>
             <line>
               <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
             </line>
             <line>
-              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
             </line>
             <line>
               <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -669,11 +774,33 @@ Create New Account]]>
               <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_18_52.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_18_52.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_57.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_57.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="verifyLoginWithInvalidCredentials" duration-ms="40046" started-at="2017-11-01T23:18:53Z" data-provider="LoginData" finished-at="2017-11-01T23:19:33Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-08T16:28:58Z" finished-at="2017-11-08T16:28:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236] output=----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:28:58Z" finished-at="2017-11-08T16:28:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="verifyLoginWithInvalidCredentials" duration-ms="37897" started-at="2017-11-08T16:28:58Z" data-provider="LoginData" finished-at="2017-11-08T16:29:36Z">
           <params>
             <param index="0">
               <value>
@@ -699,19 +826,19 @@ Create New Account]]>
               <![CDATA[SignIn link clicked on the page nav Bar.]]>
             </line>
             <line>
-              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+              <![CDATA[Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
             </line>
             <line>
-              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
             </line>
             <line>
               <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
             </line>
             <line>
-              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
             </line>
             <line>
               <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -720,11 +847,22 @@ Create New Account]]>
               <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_19_33.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_19_33.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_29_36.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_29_36.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="verifyLoginWithInvalidCredentials" duration-ms="42155" started-at="2017-11-01T23:19:33Z" data-provider="LoginData" finished-at="2017-11-01T23:20:15Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:29:36Z" finished-at="2017-11-08T16:29:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="verifyLoginWithInvalidCredentials" duration-ms="36675" started-at="2017-11-08T16:29:36Z" data-provider="LoginData" finished-at="2017-11-08T16:30:13Z">
           <params>
             <param index="0">
               <value>
@@ -750,19 +888,19 @@ Create New Account]]>
               <![CDATA[SignIn link clicked on the page nav Bar.]]>
             </line>
             <line>
-              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='email']]]]>
+              <![CDATA[Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]]]>
             </line>
             <line>
-              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //*[@id='passwd']]]]>
+              <![CDATA[Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]]]>
             </line>
             <line>
               <![CDATA[Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin']]>
             </line>
             <line>
-              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on XP (3efb5e9d8aa3d88fbd766c958d8cbd64)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
+              <![CDATA[Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]]]>
             </line>
             <line>
               <![CDATA[Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']']]>
@@ -771,11 +909,44 @@ Create New Account]]>
               <![CDATA[----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_20_15.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_01_11_2017_11_20_15.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_30_13.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_30_13.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="SKIP" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="verifyLoginWithInvalidCredentials" duration-ms="3" started-at="2017-11-01T23:20:16Z" data-provider="LoginData" finished-at="2017-11-01T23:20:16Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:29:36Z" finished-at="2017-11-08T16:29:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236] output=----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-08T16:30:13Z" finished-at="2017-11-08T16:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:30:13Z" finished-at="2017-11-08T16:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236] output=----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="verifyLoginWithInvalidCredentials" duration-ms="3" started-at="2017-11-08T16:30:13Z" data-provider="LoginData" finished-at="2017-11-08T16:30:13Z">
           <params>
             <param index="0">
               <value>
@@ -799,11 +970,11 @@ Create New Account]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: This data is marked as N. Hence skipping
-	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:46)
+	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
@@ -837,7 +1008,18 @@ Create New Account]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@149dace]" name="endTest" is-config="true" duration-ms="1350" started-at="2017-11-01T23:20:16Z" finished-at="2017-11-01T23:20:17Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:30:13Z" finished-at="2017-11-08T16:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SKIP method=TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236] output=----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236]" name="endTest" is-config="true" duration-ms="1656" started-at="2017-11-08T16:30:13Z" finished-at="2017-11-08T16:30:15Z">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser and driver instance!]]>
@@ -846,7 +1028,7 @@ Create New Account]]>
         </test-method> <!-- endTest -->
       </class> <!-- com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials -->
       <class name="com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@1a5c39e]" name="setup" is-config="true" duration-ms="20999" started-at="2017-11-01T23:15:10Z" finished-at="2017-11-01T23:15:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4]" name="setup" is-config="true" duration-ms="13921" started-at="2017-11-08T16:25:44Z" finished-at="2017-11-08T16:25:58Z">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser chrome]]>
@@ -856,7 +1038,7 @@ Create New Account]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verfiyRegistration()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@1a5c39e]" name="verfiyRegistration" duration-ms="29106" started-at="2017-11-01T23:15:31Z" finished-at="2017-11-01T23:16:00Z">
+        <test-method status="PASS" signature="verfiyRegistration()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4]" name="verfiyRegistration" duration-ms="26375" started-at="2017-11-08T16:25:58Z" finished-at="2017-11-08T16:26:24Z">
           <reporter-output>
             <line>
               <![CDATA[----------------Starting Test TC002_VerfiyRegistration----------------]]>
@@ -865,55 +1047,55 @@ Create New Account]]>
               <![CDATA[SignIn link clicked on the page nav Bar.]]>
             </line>
             <line>
-              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
+              <![CDATA[Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
             </line>
             <line>
-              <![CDATA[Entered email address Jagjeet_1509558276951@gmail.com and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: email_create]]]>
+              <![CDATA[Entered email address Jagjeet_1510138501982@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: email_create]]]>
             </line>
             <line>
-              <![CDATA[Clicked on Register1 Button at Home page & the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: SubmitCreate]]]>
+              <![CDATA[Clicked on Register1 Button at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: SubmitCreate]]]>
             </line>
             <line>
-              <![CDATA[Entered First Name Jagjeet and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: customer_firstname]]]>
+              <![CDATA[Entered First Name Jagjeet and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: customer_firstname]]]>
             </line>
             <line>
-              <![CDATA[Entered Last Name Singh and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: customer_lastname]]]>
+              <![CDATA[Entered Last Name Singh and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: customer_lastname]]]>
             </line>
             <line>
-              <![CDATA[Entered Password Password1 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: passwd]]]>
+              <![CDATA[Entered Password Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: passwd]]]>
             </line>
             <line>
-              <![CDATA[Entered Address First Name Add Fir Name and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: firstname]]]>
+              <![CDATA[Entered Address First Name Add Fir Name and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: firstname]]]>
             </line>
             <line>
-              <![CDATA[Entered Address Last Name Add Last Name and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: lastname]]]>
+              <![CDATA[Entered Address Last Name Add Last Name and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: lastname]]]>
             </line>
             <line>
-              <![CDATA[Entered Address Line 1 Address Line 1 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: address1]]]>
+              <![CDATA[Entered Address Line 1 Address Line 1 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: address1]]]>
             </line>
             <line>
-              <![CDATA[Entered city  City and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: city]]]>
+              <![CDATA[Entered city  City and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: city]]]>
             </line>
             <line>
-              <![CDATA[Selected State Alabama and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: id_state]]]>
+              <![CDATA[Selected State Alabama and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: id_state]]]>
             </line>
             <line>
-              <![CDATA[Entered postcode 12345 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: postcode]]]>
+              <![CDATA[Entered postcode 12345 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: postcode]]]>
             </line>
             <line>
-              <![CDATA[Selected Country United States and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: id_country]]]>
+              <![CDATA[Selected Country United States and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: id_country]]]>
             </line>
             <line>
-              <![CDATA[Entered mobile 1234567890 and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: phone_mobile]]]>
+              <![CDATA[Entered mobile 1234567890 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: phone_mobile]]]>
             </line>
             <line>
-              <![CDATA[Entered alias Alias and the object is:[[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> id: alias]]]>
+              <![CDATA[Entered alias Alias and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: alias]]]>
             </line>
             <line>
               <![CDATA[Clicked on Register2 Button at Home page & the object is:Proxy element for: DefaultElementLocator 'By.id: submitAccount']]>
             </line>
             <line>
-              <![CDATA[Registration success element found. Object is: [[ChromeDriver: chrome on XP (f8cc342bf6155eb08a2ecdcd003952d1)] -> xpath: //a[@title='View my customer account']/span]]]>
+              <![CDATA[Registration success element found. Object is: [[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> xpath: //a[@title='View my customer account']/span]]]>
             </line>
             <line>
               <![CDATA[Registration success message text is:Jagjeet Singh]]>
@@ -922,11 +1104,33 @@ Create New Account]]>
               <![CDATA[----------------Completed Test TC002_VerfiyRegistration----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_01_11_2017_11_16_00.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_01_11_2017_11_16_00.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_08_11_2017_04_26_24.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_08_11_2017_04_26_24.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verfiyRegistration -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@1a5c39e]" name="endTest" is-config="true" duration-ms="1317" started-at="2017-11-01T23:16:01Z" finished-at="2017-11-01T23:16:02Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:25:58Z" finished-at="2017-11-08T16:25:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration.verfiyRegistration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:26:25Z" finished-at="2017-11-08T16:26:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verfiyRegistration status=SUCCESS method=TC002_VerfiyRegistration.verfiyRegistration()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4] output=----------------Starting Test TC002_VerfiyRegistration----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4]" name="endTest" is-config="true" duration-ms="1337" started-at="2017-11-08T16:26:25Z" finished-at="2017-11-08T16:26:26Z">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser and driver instance!]]>
@@ -935,9 +1139,9 @@ Create New Account]]>
         </test-method> <!-- endTest -->
       </class> <!-- com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration -->
     </test> <!-- Register Page Tests -->
-    <test name="Product Details Page Tests" duration-ms="63667" started-at="2017-11-01T17:50:17Z" finished-at="2017-11-01T17:51:21Z">
+    <test name="Product Details Page Tests" duration-ms="42898" started-at="2017-11-08T11:00:15Z" finished-at="2017-11-08T11:00:58Z">
       <class name="com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@bfbc86]" name="setup" is-config="true" duration-ms="19040" started-at="2017-11-01T23:20:17Z" finished-at="2017-11-01T23:20:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b]" name="setup" is-config="true" duration-ms="14490" started-at="2017-11-08T16:30:15Z" finished-at="2017-11-08T16:30:30Z">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser chrome]]>
@@ -947,7 +1151,18 @@ Create New Account]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyProductTitle()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@bfbc86]" name="verifyProductTitle" duration-ms="14060" started-at="2017-11-01T23:20:36Z" finished-at="2017-11-01T23:20:50Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-08T16:30:30Z" finished-at="2017-11-08T16:30:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.verifyProductTitle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyProductTitle()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b]" name="verifyProductTitle" duration-ms="7599" started-at="2017-11-08T16:30:30Z" finished-at="2017-11-08T16:30:37Z">
           <reporter-output>
             <line>
               <![CDATA[----------------Statring Test TC001_VerifyProductTitle----------------]]>
@@ -971,20 +1186,31 @@ Create New Account]]>
               <![CDATA[----------------Finished Test TC001_VerifyProductTitle----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_01_11_2017_11_20_50.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_01_11_2017_11_20_50.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_08_11_2017_04_30_37.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_08_11_2017_04_30_37.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyProductTitle -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@bfbc86]" name="endTest" is-config="true" duration-ms="1335" started-at="2017-11-01T23:20:50Z" finished-at="2017-11-01T23:20:52Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b]" name="endTest" is-config="true" duration-ms="1501" started-at="2017-11-08T16:30:38Z" finished-at="2017-11-08T16:30:39Z">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser and driver instance!]]>
             </line>
           </reporter-output>
         </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:30:38Z" finished-at="2017-11-08T16:30:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductTitle status=SUCCESS method=TC001_VerifyProductTitle.verifyProductTitle()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b] output=----------------Statring Test TC001_VerifyProductTitle----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle -->
       <class name="com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@bf3bbf]" name="setup" is-config="true" duration-ms="19497" started-at="2017-11-01T23:20:52Z" finished-at="2017-11-01T23:21:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2]" name="setup" is-config="true" duration-ms="11943" started-at="2017-11-08T16:30:39Z" finished-at="2017-11-08T16:30:51Z">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser chrome]]>
@@ -994,13 +1220,24 @@ Create New Account]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyFacebookShareLink()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@bf3bbf]" name="verifyFacebookShareLink" duration-ms="7589" started-at="2017-11-01T23:21:11Z" finished-at="2017-11-01T23:21:19Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-08T16:30:51Z" finished-at="2017-11-08T16:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink.verifyFacebookShareLink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyFacebookShareLink()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2]" name="verifyFacebookShareLink" duration-ms="5035" started-at="2017-11-08T16:30:51Z" finished-at="2017-11-08T16:30:56Z">
           <reporter-output>
             <line>
               <![CDATA[----------------Statring Test TC002_VerifyFacebookShareLink----------------]]>
             </line>
             <line>
-              <![CDATA[Clicked on Facebook Share link and object is: [[ChromeDriver: chrome on XP (6396ee71e7eae866b37f254ff3ca9f09)] -> xpath: //button[@class= 'btn btn-default btn-facebook']]]]>
+              <![CDATA[Clicked on Facebook Share link and object is: [[ChromeDriver: chrome on WIN8_1 (33f2d10d8cfada0bc74f45e254b4a4c0)] -> xpath: //button[@class= 'btn btn-default btn-facebook']]]]>
             </line>
             <line>
               <![CDATA[Switched to Facebook popup.]]>
@@ -1016,17 +1253,28 @@ Create New Account]]>
               <![CDATA[----------------Finished Test TC002_VerifyFacebookShareLink----------------]]>
             </line>
             <line>
-              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_01_11_2017_11_21_19.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_01_11_2017_11_21_19.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_08_11_2017_04_30_56.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_08_11_2017_04_30_56.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyFacebookShareLink -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@bf3bbf]" name="endTest" is-config="true" duration-ms="1296" started-at="2017-11-01T23:21:19Z" finished-at="2017-11-01T23:21:21Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2]" name="endTest" is-config="true" duration-ms="1437" started-at="2017-11-08T16:30:57Z" finished-at="2017-11-08T16:30:58Z">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser and driver instance!]]>
             </line>
           </reporter-output>
         </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T16:30:57Z" finished-at="2017-11-08T16:30:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacebookShareLink status=SUCCESS method=TC002_VerifyFacebookShareLink.verifyFacebookShareLink()[pri:0, instance:com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2] output=----------------Statring Test TC002_VerifyFacebookShareLink----------------]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink -->
     </test> <!-- Product Details Page Tests -->
   </suite> <!-- Regression Suite -->

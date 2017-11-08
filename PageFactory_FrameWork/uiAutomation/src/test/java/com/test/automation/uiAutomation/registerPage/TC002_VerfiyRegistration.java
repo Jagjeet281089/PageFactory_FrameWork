@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
@@ -38,10 +37,5 @@ public class TC002_VerfiyRegistration extends TestBase {
 		Assert.assertEquals(true, registerPage.getRegistrationSuccess());
 		Assert.assertEquals(registerPage.getRegistrationSuccessMessageText(), "Jagjeet Singh");
 		log("----------------Completed Test TC002_VerfiyRegistration----------------");
-	}
-
-	@AfterClass
-	public void endTest() {
-		end();
 	}
 }

@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -40,11 +39,4 @@ public class TC001_VerifyProductTitle extends TestBase{
 		Assert.assertEquals("Faded Short Sleeve T-shirts", productDetailsPage.getProductTitleText());
 		log("----------------Finished Test TC001_VerifyProductTitle----------------");
 	}
-	
-	@AfterClass
-	public void endTest(){
-		end();
-	}
-	
-	
 }

@@ -1,0 +1,79 @@
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
+
+import com.test.automation.uiAutomation.uiActions.ProductDetailsPage;
+
+public class AutomaticBookingPage {
+
+
+
+	@FindBy(xpath="")
+	WebElement unavailabledates;
+	
+	@FindBy(xpath="//button[@class= 'btn btn-default btn-facebook']")
+	WebElement facebookButton;
+	
+	
+	@FindBy (id="tzConfirmBtn")
+	WebElement timeZoneContinueButton;
+	
+	
+	
+
+	public static final Logger log = Logger.getLogger(ProductDetailsPage.class.getName());
+	WebDriver driver;
+
+	public AutomaticBookingPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this); // This is a construct that will initialize all the webelements defined above under page factory.
+	}
+	
+	
+	public void navigateToPage(String url){
+		driver.navigate().to(url);
+		log("Navigating to page: "+url);
+	}
+	
+	public void submitTimeZonePopup(){
+		timeZoneContinueButton.click();
+		log("Time Zone Pup Submitted.");
+	}
+	
+	public void selectFirstAvailableDate(){
+		
+		
+        List<WebElement> allAvailableDates = driver.findElements(By.xpath("//button[@class= 'day ng-scope boldDay']"));
+        if (allAvailableDates.size()==0){
+        	
+        }
+        
+        
+        
+        
+  
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+	
+	
+	
+	
+
+	public void log(String data) {
+		log.info(data);
+		Reporter.log(data);
+	}
+
+}

@@ -3,7 +3,6 @@ package com.test.automation.uiAutomation.productListigPage;
 import java.io.IOException;
 
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -30,11 +29,6 @@ public class TC001_VerifyProductLoads extends TestBase{
 		productListigPage = new ProductListigPage(driver);
 		productListigPage.navigateToItemType("Women", "Tops", "T-shirts");
 		log("----------------Finished Test TC001_verifyProductLoads----------------");
-	}
-	
-	@AfterClass
-	public void endTest(){
-		end();
 	}
 	
 }

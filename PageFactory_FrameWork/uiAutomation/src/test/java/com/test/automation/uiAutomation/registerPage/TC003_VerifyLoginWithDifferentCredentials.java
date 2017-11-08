@@ -6,7 +6,6 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.SkipException;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -36,7 +35,7 @@ public class TC003_VerifyLoginWithDifferentCredentials extends TestBase {
 	}
 
 	@Test(dataProvider= "LoginData")
-	public void verifyLoginWithInvalidCredentials(String emailAddress, String password, String runMode ) {
+	public void verifyLoginWithDifferentCredentials(String emailAddress, String password, String runMode ) {
 		registerPage = new RegisterPage(driver);
 		homePage = new HomePage(driver);
 		
@@ -56,11 +55,6 @@ public class TC003_VerifyLoginWithDifferentCredentials extends TestBase {
 		}
 		
 		log("----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------");
-	}
-
-	@AfterClass
-	public void endTest() {
-		end();
 	}
 
 }

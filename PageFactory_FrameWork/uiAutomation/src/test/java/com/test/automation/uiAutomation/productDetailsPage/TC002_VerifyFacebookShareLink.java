@@ -5,7 +5,6 @@ import java.util.Iterator;
 
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -47,11 +46,6 @@ public class TC002_VerifyFacebookShareLink extends TestBase{
 		driver.switchTo().window(mainWindow);
 		
 		log("----------------Finished Test TC002_VerifyFacebookShareLink----------------");
-	}
-
-	@AfterClass
-	public void endTest(){
-		end();
 	}
 }
 

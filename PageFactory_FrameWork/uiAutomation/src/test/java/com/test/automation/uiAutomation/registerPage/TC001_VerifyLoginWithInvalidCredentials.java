@@ -6,7 +6,6 @@ import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
@@ -41,10 +40,4 @@ public class TC001_VerifyLoginWithInvalidCredentials extends TestBase{
 		Assert.assertEquals(registerPage.getauthenticationFailedMessageText(), "Authentication failed.");
 		log("----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------");
 	}
-	
-	@AfterClass
-	public void endTest(){
-		end();
-	}
-	
 }
