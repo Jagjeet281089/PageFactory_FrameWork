@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
-  <listeners>
-    <listener class-name="com.test.automation.uiAutomation.customListener.Listener"/>
-    <listener class-name="com.test.automation.uiAutomation.customListener.RetryListener"/>
-  </listeners>
-  <test name="Register Page Tests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink">
+      <class name="com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful">
         <methods>
           <include name="beforeMethod"/>
           <include name="endTest"/>
+          <include name="testName" invocation-numbers="22 23 24 25 33 42 43 44 45"/>
           <include name="afterMethod"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink -->
-      <class name="com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration">
-        <methods>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="endTest"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration -->
-      <class name="com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="endTest"/>
-          <include name="setup"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle -->
-      <class name="com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="setup"/>
-          <include name="endTest"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials -->
-      <class name="com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials">
-        <methods>
-          <include name="verifyLoginWithInvalidCredentials" invocation-numbers="1 6"/>
-          <include name="beforeMethod"/>
-          <include name="endTest"/>
-          <include name="setup"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials -->
+      </class> <!-- com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful -->
     </classes>
-  </test> <!-- Register Page Tests(failed) -->
-</suite> <!-- Failed suite [Regression Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

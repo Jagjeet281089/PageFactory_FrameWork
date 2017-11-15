@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials">
+      <class name="com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful">
         <methods>
-          <include name="verifyLoginWithInvalidCredentials" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="beforeMethod"/>
           <include name="endTest"/>
+          <include name="testName" invocation-numbers="22 23 24 25 33 42 43 44 45"/>
+          <include name="afterMethod"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials -->
+      </class> <!-- com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,12 +1,13 @@
 D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\uiActions\ProductDetailsPage.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\testBase\TestBase.java
-D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\uiActions\ProductListigPage.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\classTemplates\TestClass.java
-D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\customListener\Retry.java
-D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\classTemplates\PageClass.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\uiActions\HomePage.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\uiActions\RegisterPage.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\customListener\WebEventListener.java
+D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\excelReader\Excel_Reader.java
+D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\uiActions\AutomaticBookingPage.java
+D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\uiActions\ProductListigPage.java
+D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\customListener\Retry.java
+D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\classTemplates\PageClass.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\customListener\Listener.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\customListener\RetryListener.java
-D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\excelReader\Excel_Reader.java

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Register Page Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/9</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 08 16:25:02 IST 2017</td>
+<td>Started on:</td><td>Mon Nov 13 11:47:43 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>313 seconds (313167 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7988 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,49 +68,70 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password2, Y<br/>
-<a href="#Output-12635391" onClick='toggleBox("Output-12635391", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup()'><b>setup</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials<br/>
+<a href="#Output-11639673" onClick='toggleBox("Output-11639673", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-12635391" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-12635391">
-----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]<br/>
-Entered email address Password2 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]<br/>
-Clicked on login Submit button & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> id: SubmitLogin]<br/>
-Logout Link element not found.<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_42.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\failure_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_42.png' height='100' width='100'/> </a><br/>
+<a href="#Output-11639673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11639673">
+Opening Browser chrome<br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace12635391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace12635391'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:305)
-	at org.testng.Assert.assertEquals(Assert.java:315)
-	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:51)
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace11639673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11639673'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:756)
 	at org.testng.TestRunner.run(TestRunner.java:610)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
@@ -127,173 +148,115 @@ Logout Link element not found.<br/>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>19</td>
-<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration.verfiyRegistration()'><b>verfiyRegistration</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration<br/>
-<a href="#Output-15302373" onClick='toggleBox("Output-15302373", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-15302373" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-15302373">
-----------------Starting Test TC002_VerfiyRegistration----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address Jagjeet_1510138501982@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: email_create]<br/>
-Clicked on Register1 Button at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: SubmitCreate]<br/>
-Entered First Name Jagjeet and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: customer_firstname]<br/>
-Entered Last Name Singh and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: customer_lastname]<br/>
-Entered Password Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: passwd]<br/>
-Entered Address First Name Add Fir Name and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: firstname]<br/>
-Entered Address Last Name Add Last Name and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: lastname]<br/>
-Entered Address Line 1 Address Line 1 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: address1]<br/>
-Entered city  City and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: city]<br/>
-Selected State Alabama and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: id_state]<br/>
-Entered postcode 12345 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: postcode]<br/>
-Selected Country United States and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: id_country]<br/>
-Entered mobile 1234567890 and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: phone_mobile]<br/>
-Entered alias Alias and the object is:[[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> id: alias]<br/>
-Clicked on Register2 Button at Home page & the object is:Proxy element for: DefaultElementLocator 'By.id: submitAccount'<br/>
-Registration success element found. Object is: [[ChromeDriver: chrome on WIN8_1 (0bc117f26f0060aefe2a85e540e9580b)] -> xpath: //a[@title='View my customer account']/span]<br/>
-Registration success message text is:Jagjeet Singh<br/>
-----------------Completed Test TC002_VerfiyRegistration----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_08_11_2017_04_26_24.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verfiyRegistration_08_11_2017_04_26_24.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
+<td title='com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration.setup()'><b>setup</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration</td>
 <td></td>
-<td>26</td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4</td></tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials<br/>
-<a href="#Output-19369259" onClick='toggleBox("Output-19369259", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-19369259" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-19369259">
-----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address test@test.com and the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='email']]<br/>
-Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> xpath: //*[@id='passwd']]<br/>
-Clicked on login Submit button & the object is:[[ChromeDriver: chrome on WIN8_1 (a691579f91931795cd054e380ebfa0a7)] -> id: SubmitLogin]<br/>
-Authentication Faiulre message text is: Authentication failed.<br/>
-----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_25_41.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_25_41.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.setup()'><b>setup</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
 <td></td>
-<td>9</td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials</td>
+<td></td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47</td></tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, Y<br/>
-<a href="#Output-31309413" onClick='toggleBox("Output-31309413", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-31309413" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-31309413">
-----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]<br/>
-Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]<br/>
-Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
-Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
-Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
-----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_23.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_27_23.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
+<td title='com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration</td>
 <td></td>
-<td>37</td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, Y<br/>
-<a href="#Output-14590117" onClick='toggleBox("Output-14590117", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-14590117" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-14590117">
-----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]<br/>
-Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]<br/>
-Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
-Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
-Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
-----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_20.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_20.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
 <td></td>
-<td>36</td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password1, y<br/>
-<a href="#Output-31419319" onClick='toggleBox("Output-31419319", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-31419319" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-31419319">
-----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]<br/>
-Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]<br/>
-Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
-Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
-Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
-----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_57.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_28_57.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
 <td></td>
-<td>36</td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, y<br/>
-<a href="#Output-3744581" onClick='toggleBox("Output-3744581", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-3744581" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-3744581">
-----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address test28101+172@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]<br/>
-Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]<br/>
-Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
-Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
-Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
-----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_29_36.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_29_36.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
 <td></td>
-<td>37</td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password1, y<br/>
-<a href="#Output-7643217" onClick='toggleBox("Output-7643217", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-7643217" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-7643217">
-----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address test28101+132@gmail.com and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='email']]<br/>
-Entered email address Password1 and the object is:[[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //*[@id='passwd']]<br/>
-Clicked on login Submit button & the object is:Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'<br/>
-Logout element found. Object is: [[ChromeDriver: chrome on WIN8_1 (04ed23e8e5b355a75d386089f058f765)] -> xpath: //a[@class='logout' and @title='Log me out']]<br/>
-Clicked on Logout link at Home page & the object is:Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout' and @title='Log me out']'<br/>
-----------------Completed Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_30_13.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyLoginWithInvalidCredentials_08_11_2017_04_30_13.png' height='100' width='100'/> </a><br/>
-</div>
-</td>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
 <td></td>
-<td>36</td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials</td>
+<td></td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -304,30 +267,139 @@ Clicked on Logout link at Home page & the object is:Proxy element for: DefaultEl
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, n<br/>
-<a href="#Output-3072720" onClick='toggleBox("Output-3072720", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration.verfiyRegistration()'><b>verfiyRegistration</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration<br/>
+<a href="#Output-5827996" onClick='toggleBox("Output-5827996", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-3072720" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-3072720">
-----------------Starting Test TC003_VerifyLoginWithDifferentCredentials----------------<br/>
-Test is skipped:verifyLoginWithInvalidCredentials<br/>
+<a href="#Output-5827996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5827996">
+Test is skipped:verfiyRegistration<br/>
 </div>
 </td>
-<td><div><pre>org.testng.SkipException: This data is marked as N. Hence skipping
-	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:45)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3072720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace3072720'><pre>org.testng.SkipException: This data is marked as N. Hence skipping
-	at com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithInvalidCredentials(TC003_VerifyLoginWithDifferentCredentials.java:45)
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace5827996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace5827996'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration@6a82c4</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithDifferentCredentials()'><b>verifyLoginWithDifferentCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, Y<br/>
+<a href="#Output-20723018" onClick='toggleBox("Output-20723018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20723018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20723018">
+Test is skipped:verifyLoginWithDifferentCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20723018", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20723018'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:756)
 	at org.testng.TestRunner.run(TestRunner.java:610)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
@@ -346,6 +418,538 @@ Test is skipped:verifyLoginWithInvalidCredentials<br/>
 </pre></div></td>
 <td>0</td>
 <td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithDifferentCredentials()'><b>verifyLoginWithDifferentCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password2, Y<br/>
+<a href="#Output-27946348" onClick='toggleBox("Output-27946348", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27946348" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27946348">
+Test is skipped:verifyLoginWithDifferentCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace27946348", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace27946348'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithDifferentCredentials()'><b>verifyLoginWithDifferentCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, Y<br/>
+<a href="#Output-1161635" onClick='toggleBox("Output-1161635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1161635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1161635">
+Test is skipped:verifyLoginWithDifferentCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1161635", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1161635'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithDifferentCredentials()'><b>verifyLoginWithDifferentCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password1, y<br/>
+<a href="#Output-3343467" onClick='toggleBox("Output-3343467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3343467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3343467">
+Test is skipped:verifyLoginWithDifferentCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3343467", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3343467'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithDifferentCredentials()'><b>verifyLoginWithDifferentCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, y<br/>
+<a href="#Output-24674927" onClick='toggleBox("Output-24674927", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24674927" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24674927">
+Test is skipped:verifyLoginWithDifferentCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24674927", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24674927'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithDifferentCredentials()'><b>verifyLoginWithDifferentCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+132@gmail.com, Password1, y<br/>
+<a href="#Output-4479674" onClick='toggleBox("Output-4479674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4479674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4479674">
+Test is skipped:verifyLoginWithDifferentCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4479674", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4479674'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials.verifyLoginWithDifferentCredentials()'><b>verifyLoginWithDifferentCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials<br>Parameters: test28101+172@gmail.com, Password1, n<br/>
+<a href="#Output-25379539" onClick='toggleBox("Output-25379539", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25379539" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25379539">
+Test is skipped:verifyLoginWithDifferentCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace25379539", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace25379539'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials@11f8236</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials<br/>
+<a href="#Output-9247959" onClick='toggleBox("Output-9247959", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9247959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9247959">
+Test is skipped:verifyLoginWithInvalidCredentials<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9247959", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9247959'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.09 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir12144_8947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 941c9970bd8f63dd3cd8b70e026551d2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.setup(TC001_VerifyLoginWithInvalidCredentials.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@1e8ea47</td></tr>
 </table><p>
 </body>
 </html>

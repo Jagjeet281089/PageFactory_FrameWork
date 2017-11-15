@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Product Details Page Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 08 16:30:15 IST 2017</td>
+<td>Started on:</td><td>Mon Nov 13 11:47:51 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>42 seconds (42898 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5283 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,125 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.setup()'><b>setup</b><br>Test class: com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle<br/>
+<a href="#Output-20936832" onClick='toggleBox("Output-20936832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20936832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20936832">
+Opening Browser chrome<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir8888_19007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8bdf197a85aec29a928de35a2183237b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.setup(TC001_VerifyProductTitle.java:27)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20936832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20936832'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir8888_19007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8bdf197a85aec29a928de35a2183237b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.setup(TC001_VerifyProductTitle.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink.setup()'><b>setup</b><br>Test class: com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,43 +193,155 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink.verifyFacebookShareLink()'><b>verifyFacebookShareLink</b><br>Test class: com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink<br/>
-<a href="#Output-7070489" onClick='toggleBox("Output-7070489", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-22462631" onClick='toggleBox("Output-22462631", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-7070489" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-7070489">
-----------------Statring Test TC002_VerifyFacebookShareLink----------------<br/>
-Clicked on Facebook Share link and object is: [[ChromeDriver: chrome on WIN8_1 (33f2d10d8cfada0bc74f45e254b4a4c0)] -> xpath: //button[@class= 'btn btn-default btn-facebook']]<br/>
-Switched to Facebook popup.<br/>
-Facebook Popup header text is: Log in to your Facebook account to share.
-Email address or phone number:
-Password:
-Forgotten account?
-Create New Account<br/>
-----------------Finished Test TC002_VerifyFacebookShareLink----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_08_11_2017_04_30_56.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyFacebookShareLink_08_11_2017_04_30_56.png' height='100' width='100'/> </a><br/>
+<a href="#Output-22462631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22462631">
+Test is skipped:verifyFacebookShareLink<br/>
 </div>
 </td>
-<td></td>
-<td>5</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir8888_19007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8bdf197a85aec29a928de35a2183237b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.setup(TC001_VerifyProductTitle.java:27)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22462631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22462631'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir8888_19007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8bdf197a85aec29a928de35a2183237b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.setup(TC001_VerifyProductTitle.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink@a664f2</td></tr>
 <tr>
 <td title='com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.verifyProductTitle()'><b>verifyProductTitle</b><br>Test class: com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle<br/>
-<a href="#Output-108055" onClick='toggleBox("Output-108055", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-11134417" onClick='toggleBox("Output-11134417", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-108055" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-108055">
-----------------Statring Test TC001_VerifyProductTitle----------------<br/>
-Main category choosen as:Women<br/>
-Sub category choosen as:Tops<br/>
-Product Type choosen as:T-shirts<br/>
-Product Selected as:Faded Short Sleeve T-shirts<br/>
-Returning Product Title:Faded Short Sleeve T-shirts<br/>
-----------------Finished Test TC001_VerifyProductTitle----------------<br/>
-<a href='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_08_11_2017_04_30_37.png'> <img src='D:\git\PageFactory_FrameWork\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\verifyProductTitle_08_11_2017_04_30_37.png' height='100' width='100'/> </a><br/>
+<a href="#Output-11134417" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11134417">
+Test is skipped:verifyProductTitle<br/>
 </div>
 </td>
-<td></td>
-<td>7</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir8888_19007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8bdf197a85aec29a928de35a2183237b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.setup(TC001_VerifyProductTitle.java:27)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace11134417", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11134417'><pre>org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (Session info: chrome=62.0.3202.89)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\Jagjeet\AppData\Local\Temp\scoped_dir8888_19007}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.89, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8bdf197a85aec29a928de35a2183237b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at com.test.automation.uiAutomation.testBase.TestBase.selectBrowser(TestBase.java:79)
+	at com.test.automation.uiAutomation.testBase.TestBase.init(TestBase.java:64)
+	at com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle.setup(TC001_VerifyProductTitle.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
 <td>com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle@177e91b</td></tr>
 </table><p>
 </body>

@@ -1,29 +1,37 @@
 package com.test.automation.uiAutomation.uiActions;
-import java.util.List;
+
+
+import javax.xml.xpath.XPath;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 import com.test.automation.uiAutomation.uiActions.ProductDetailsPage;
 
 public class AutomaticBookingPage {
 
-	@FindBy(xpath="//button[@class= 'btn btn-default btn-facebook']")
-	WebElement facebookButton;
-	
 	@FindBy (id="tzConfirmBtn")
 	WebElement timeZoneContinueButton;
 
 	@FindBy (id ="monthHeading")
 	WebElement currentMonthName;
 
-	@FindBy(xpath="//button[@type = 'button' and @class = 'next active']/span[@class='ng-binding leftAngletext']")
-	WebElement nextMonthText;
+	@FindBy(xpath="//button[@type = 'button' and @class = 'next active']/span[1]")
+	WebElement nextMonthsName;
+	
+	@FindBy(xpath="//button[@class='prev active']/span[@class='ng-binding']")
+	WebElement prevMonthsName;
+	
+	@FindBy(xpath="//button[@aria-label='Proceed to next step' and @id='bookSlot']")
+	WebElement continueButtonOnDateandTimeScreen;
 	
 	
 	public static final Logger log = Logger.getLogger(ProductDetailsPage.class.getName());
@@ -33,6 +41,18 @@ public class AutomaticBookingPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this); // This is a construct that will initialize all the webelements defined above under page factory.
 	}
+	
+	
+	public void makeAutomaticBookingAt(String Year, String Month, String Date, String Time){	
+		submitTimeZonePopup();
+		navigateToMonth(Month, Year);
+		selectDate(Date);
+		selectTime(Time);
+		//submitMonthDateTime();
+	}
+	
+	
+//==================== OTHERS ====================	
 	
 	public void submitTimeZonePopup(){
 		try {
@@ -45,60 +65,86 @@ public class AutomaticBookingPage {
 		}
 	}
 	
-	
-	public boolean checkIfBoookingDateAvailable(){
-		
-		List<WebElement> allAvailableDates = driver.findElements(By.xpath("//button[@class= 'day ng-scope boldDay']"));
-        boolean status = false;
-        if (allAvailableDates.size()==0){
-        	status = false;
-        	log("No dates available for booking in the Month "+ currentMonthName);
-        }
-        else{
-        	status = true;
-        	log("Dates available for booking in the Month "+ currentMonthName);
-        }
-		return status;		
+	public void submitMonthDateTime(){
+		try {
+			continueButtonOnDateandTimeScreen.click();
+			log("Date and Time form submited.");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			log("Unable to See Continue button.");
+		}
 	}
 	
+//====================MONTH Related====================
 	
-	public void selectNextMonth(){		
-		nextMonthText.click();
-		log("Clicked on next button to reach Month: "+nextMonthText.getText().toString());
+	public String getCurrentMonthName(){
+		String monthName = currentMonthName.getText();
+		String trimmedName = monthName.trim();
+		log("Current Month Name is: "+currentMonthName.getText().toString());
+		return trimmedName;
+	}
+	
+	public void selectNextMonth(){
+				
+		log("Clicking on next arrow to reach Month: "+nextMonthsName.getText().toString());
+		nextMonthsName.click();		
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		log("Clicked on next button to reach Month: "+nextMonthText.getText().toString());
-			
+		log("Next arrow clicked, now reached to Month: "+currentMonthName.getText().toString());
+	}
+		
+	
+	public void navigateToMonth(String month, String year){
+		
+		String expectedMonthToNavigate = month.trim()+" "+year.trim();	
+		System.out.println("Expected Month to Navigate is: "+ expectedMonthToNavigate);
+		String currentMonthName =  getCurrentMonthName();
+		
+		if(currentMonthName.equalsIgnoreCase(expectedMonthToNavigate)){
+			//NA
+		}
+		else if(!currentMonthName.equalsIgnoreCase(expectedMonthToNavigate)){
+			while(!currentMonthName.equalsIgnoreCase(expectedMonthToNavigate)){
+				selectNextMonth();
+				currentMonthName = getCurrentMonthName();
+			}
+		}
+		log("Reached to Month: "+getCurrentMonthName().toString());
 	}
 	
+//====================DATE RELATED====================
+	
+	public void selectDate(String date){
+		driver.findElement(By.xpath("//button[@class='day ng-scope boldDay']/span[contains(text(),"+date+")]")).click();
+		log("Date Selected as : "+date);
+	}
 
+//====================TIME RELATED====================
 	
-	public void selectFirstAvailableBookingTime(){
+	public void selectTime(String time){
+		System.out.println("Expected time to be Selected: "+time);
+		WebElement timeElement =  driver.findElement(By.xpath("//button[@class='timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty' and contains(text(),'"+time+"')]"));
 		
-		checkIfBoookingDateAvailable();
-		while(checkIfBoookingDateAvailable() == false){
-			selectNextMonth();
-			checkIfBoookingDateAvailable();
-		}
+		int x = timeElement.getLocation().x;
+		int y = timeElement.getLocation().y;
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("scroll("+x+", "+y+")");
 		
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
+		WebDriverWait wait = new WebDriverWait(driver, 5);
+		wait.until(ExpectedConditions.visibilityOf(timeElement));
+	
+		timeElement.click();
+		log("Time Selected as : "+time);
+	}
 
-	
-	
-	
-	
 
 	public void log(String data) {
 		log.info(data);
 		Reporter.log(data);
 	}
-
+	
 }

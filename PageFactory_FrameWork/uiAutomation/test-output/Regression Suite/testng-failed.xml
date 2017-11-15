@@ -9,45 +9,67 @@
     <classes>
       <class name="com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink">
         <methods>
-          <include name="beforeMethod"/>
           <include name="endTest"/>
-          <include name="afterMethod"/>
-          <include name="setup"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink -->
       <class name="com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration">
         <methods>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
           <include name="endTest"/>
-          <include name="afterMethod"/>
+          <include name="verfiyRegistration"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration -->
       <class name="com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle">
         <methods>
-          <include name="beforeMethod"/>
           <include name="endTest"/>
           <include name="setup"/>
-          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle -->
       <class name="com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials">
         <methods>
-          <include name="beforeMethod"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
           <include name="setup"/>
           <include name="endTest"/>
-          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials -->
       <class name="com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials">
         <methods>
-          <include name="verifyLoginWithInvalidCredentials" invocation-numbers="1 6"/>
-          <include name="beforeMethod"/>
+          <include name="verifyLoginWithDifferentCredentials" invocation-numbers="0 1 2 3 4 5 6"/>
           <include name="endTest"/>
-          <include name="setup"/>
-          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials -->
     </classes>
   </test> <!-- Register Page Tests(failed) -->
+  <test name="Product Details Page Tests(failed)">
+    <classes>
+      <class name="com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink">
+        <methods>
+          <include name="verifyFacebookShareLink"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.productDetailsPage.TC002_VerifyFacebookShareLink -->
+      <class name="com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle">
+        <methods>
+          <include name="verifyProductTitle"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.productDetailsPage.TC001_VerifyProductTitle -->
+      <class name="com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration">
+        <methods>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.registerPage.TC002_VerfiyRegistration -->
+      <class name="com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials">
+        <methods>
+          <include name="setup"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials -->
+      <class name="com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials">
+        <methods>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.registerPage.TC003_VerifyLoginWithDifferentCredentials -->
+    </classes>
+  </test> <!-- Product Details Page Tests(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

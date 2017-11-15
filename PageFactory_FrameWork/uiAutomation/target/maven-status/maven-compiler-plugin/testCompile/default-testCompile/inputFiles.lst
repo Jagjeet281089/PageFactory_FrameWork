@@ -1,5 +1,6 @@
 D:\git\PageFactory_FrameWork\uiAutomation\src\test\java\com\test\automation\uiAutomation\productDetailsPage\TC001_VerifyProductTitle.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\test\java\com\test\automation\uiAutomation\registerPage\TC002_VerfiyRegistration.java
+D:\git\PageFactory_FrameWork\uiAutomation\src\test\java\com\test\automation\uiAutomation\customerSide\TC001_CheckifBookingSuccessful.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\test\java\com\test\automation\uiAutomation\registerPage\TC003_VerifyLoginWithDifferentCredentials.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\test\java\com\test\automation\uiAutomation\productDetailsPage\TC002_VerifyFacebookShareLink.java
 D:\git\PageFactory_FrameWork\uiAutomation\src\test\java\com\test\automation\uiAutomation\productListigPage\TC001_VerifyProductLoads.java

@@ -1,0 +1,106 @@
+package com.test.automation.uiAutomation.uiActions;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
+
+import com.test.automation.uiAutomation.uiActions.ProductDetailsPage;
+
+public class AutomaticBookingPage {
+
+	@FindBy (id="tzConfirmBtn")
+	WebElement timeZoneContinueButton;
+
+	@FindBy (id ="monthHeading")
+	WebElement currentMonthName;
+
+	@FindBy(xpath="//button[@type = 'button' and @class = 'next active']/span[@class='ng-binding leftAngletext']")
+	WebElement nextMonthsName;
+	
+	@FindBy(xpath="//button[@class='prev active']/span[@class='ng-binding']")
+	WebElement prevMonthsName;
+	
+	
+	public static final Logger log = Logger.getLogger(ProductDetailsPage.class.getName());
+	WebDriver driver;
+
+	public AutomaticBookingPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this); // This is a construct that will initialize all the webelements defined above under page factory.
+	}
+	
+	public void submitTimeZonePopup(){
+		try {
+			timeZoneContinueButton.click();
+			log("Time Zone Pup Submitted.");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			log("Unable to See Time Zone Pup.");
+		}
+	}
+	
+	
+	public String getCurrentMonthName(){
+		String monthName = currentMonthName.getText();
+		log("Current Month Name is: "+currentMonthName.getText().toString());
+		return monthName;
+	}
+	
+	
+	public void selectNextMonth(){
+		
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.visibilityOf(currentMonthName));
+		
+		log("Clicking on next arrow to reach Month: "+nextMonthsName.getText().toString());
+		nextMonthsName.click();		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		wait.until(ExpectedConditions.visibilityOf(prevMonthsName));
+		log("Next arrow clicked, now reached to Month: "+currentMonthName.getText().toString());
+	}
+	
+	
+	
+	public void navigateToMonth(String month, String Year){
+		String expectedMonthToNavigate = month+" "+Year;
+		String currentMonthName =  getCurrentMonthName();
+		if(currentMonthName.equals(expectedMonthToNavigate)){
+			log("Reached to Month: "+getCurrentMonthName().toString());
+		}
+		
+		else{
+			while(!currentMonthName.equals(expectedMonthToNavigate)){
+				selectNextMonth();
+			}
+			log("Reached to Month: "+getCurrentMonthName().toString());
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public void log(String data) {
+		log.info(data);
+		Reporter.log(data);
+	}
+
+}

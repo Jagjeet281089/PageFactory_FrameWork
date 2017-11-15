@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>37/9/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 01 23:03:58 IST 2017</td>
+<td>Started on:</td><td>Tue Nov 14 16:40:49 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>161 seconds (161497 ms)</td>
+<tr><td>Total time:</td><td>567 seconds (567420 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,1071 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 12:00 AM, Y<br/>
+<a href="#Output-2460719" onClick='toggleBox("Output-2460719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2460719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2460719">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:00 AM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:00 AM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2460719", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2460719'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:00 AM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:00 AM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>24</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 12:15 AM, Y<br/>
+<a href="#Output-8207430" onClick='toggleBox("Output-8207430", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8207430" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8207430">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:15 AM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:15 AM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace8207430", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8207430'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:15 AM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:15 AM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 12:30 AM, Y<br/>
+<a href="#Output-2979691" onClick='toggleBox("Output-2979691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2979691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2979691">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:30 AM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:30 AM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2979691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2979691'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:30 AM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:30 AM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 12:45 AM, Y<br/>
+<a href="#Output-22605116" onClick='toggleBox("Output-22605116", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22605116" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22605116">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:45 AM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:45 AM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace22605116", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22605116'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:45 AM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;12:45 AM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 2:45 PM, Y<br/>
+<a href="#Output-4767936" onClick='toggleBox("Output-4767936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4767936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4767936">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Unable to See Time Zone Pup.<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #monthHeading
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=id, value=monthHeading}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.getCurrentMonthName(AutomaticBookingPage.java:82)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.navigateToMonth(AutomaticBookingPage.java:105)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:48)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace4767936", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4767936'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #monthHeading
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=id, value=monthHeading}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.getCurrentMonthName(AutomaticBookingPage.java:82)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.navigateToMonth(AutomaticBookingPage.java:105)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:48)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>49</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 5:00 PM, Y<br/>
+<a href="#Output-33112190" onClick='toggleBox("Output-33112190", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33112190" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33112190">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:00 PM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:00 PM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace33112190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33112190'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:00 PM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:00 PM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 5:15 PM, Y<br/>
+<a href="#Output-9809054" onClick='toggleBox("Output-9809054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9809054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9809054">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:15 PM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:15 PM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace9809054", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9809054'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:15 PM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:15 PM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>27</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 5:30 PM, Y<br/>
+<a href="#Output-6061835" onClick='toggleBox("Output-6061835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6061835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6061835">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:30 PM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:30 PM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace6061835", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace6061835'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:30 PM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:30 PM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 5:45 PM, Y<br/>
+<a href="#Output-32028449" onClick='toggleBox("Output-32028449", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32028449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32028449">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:45 PM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:45 PM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace32028449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace32028449'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:45 PM&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;DESKTOP-9UPLSBP&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Jagjeet\AppData\Local\Temp\rust_mozprofile.S0wx5e9xNCvf, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0.2, platformVersion=10.0, moz:processID=13804, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ff57a1d5-c30c-4fe8-8027-64f5ef414226
+*** Element info: {Using=xpath, value=//button[@class=&apos;timeSlotSingle ng-pristine ng-untouched ng-valid ng-binding ng-not-empty&apos; and contains(text(),&apos;5:45 PM&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.selectTime(AutomaticBookingPage.java:130)
+	at com.test.automation.uiAutomation.uiActions.AutomaticBookingPage.makeAutomaticBookingAt(AutomaticBookingPage.java:50)
+	at com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName(TC001_CheckifBookingSuccessful.java:50)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,24 +1140,745 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials<br/>
-<a href="#Output-1377129" onClick='toggleBox("Output-1377129", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 6:30 AM, Y<br/>
+<a href="#Output-8693985" onClick='toggleBox("Output-8693985", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1377129" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1377129">
-----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------<br/>
-SignIn link clicked on the page nav Bar.<br/>
-Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (e949d9f35aa2c9357b4b8d8c5241448d)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]<br/>
-Entered email address test@test.com and the object is:[[ChromeDriver: chrome on XP (e949d9f35aa2c9357b4b8d8c5241448d)] -> xpath: //*[@id='email']]<br/>
-Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on XP (e949d9f35aa2c9357b4b8d8c5241448d)] -> xpath: //*[@id='passwd']]<br/>
-Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (e949d9f35aa2c9357b4b8d8c5241448d)] -> id: SubmitLogin]<br/>
-Authentication Faiulre message text is: Authentication failed.<br/>
-----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------<br/>
+<a href="#Output-8693985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8693985">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 6:30 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
 </div>
 </td>
 <td></td>
-<td>22</td>
-<td>com.test.automation.uiAutomation.registerPage.TC001_VerifyLoginWithInvalidCredentials@13ad2d6</td></tr>
+<td>12</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 6:45 AM, Y<br/>
+<a href="#Output-29682908" onClick='toggleBox("Output-29682908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29682908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29682908">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 6:45 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 7:00 AM, Y<br/>
+<a href="#Output-16158207" onClick='toggleBox("Output-16158207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16158207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16158207">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 7:00 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 7:15 AM, Y<br/>
+<a href="#Output-5022710" onClick='toggleBox("Output-5022710", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5022710" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5022710">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 7:15 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 7:30 AM, Y<br/>
+<a href="#Output-28153725" onClick='toggleBox("Output-28153725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28153725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28153725">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 7:30 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 7:45 AM, Y<br/>
+<a href="#Output-33169939" onClick='toggleBox("Output-33169939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33169939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33169939">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 7:45 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 8:00 AM, Y<br/>
+<a href="#Output-15514509" onClick='toggleBox("Output-15514509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15514509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15514509">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 8:00 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 8:15 AM, Y<br/>
+<a href="#Output-30585486" onClick='toggleBox("Output-30585486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30585486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30585486">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 8:15 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 8:30 AM, Y<br/>
+<a href="#Output-2135095" onClick='toggleBox("Output-2135095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2135095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2135095">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 8:30 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 8:45 AM, Y<br/>
+<a href="#Output-16024881" onClick='toggleBox("Output-16024881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16024881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16024881">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 8:45 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 9:00 AM, Y<br/>
+<a href="#Output-2294614" onClick='toggleBox("Output-2294614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2294614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2294614">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 9:00 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 9:15 AM, Y<br/>
+<a href="#Output-26689801" onClick='toggleBox("Output-26689801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26689801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26689801">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 9:15 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 9:30 AM, Y<br/>
+<a href="#Output-19943325" onClick='toggleBox("Output-19943325", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19943325" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19943325">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 9:30 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 9:45 AM, Y<br/>
+<a href="#Output-23922726" onClick='toggleBox("Output-23922726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23922726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23922726">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 9:45 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 10:00 AM, Y<br/>
+<a href="#Output-5532194" onClick='toggleBox("Output-5532194", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5532194" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5532194">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 10:00 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 10:15 AM, Y<br/>
+<a href="#Output-13220824" onClick='toggleBox("Output-13220824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13220824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13220824">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 10:15 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 10:30 AM, Y<br/>
+<a href="#Output-16679802" onClick='toggleBox("Output-16679802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16679802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16679802">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 10:30 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 10:45 AM, Y<br/>
+<a href="#Output-32422911" onClick='toggleBox("Output-32422911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32422911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32422911">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 10:45 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 11:00 AM, Y<br/>
+<a href="#Output-23061362" onClick='toggleBox("Output-23061362", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23061362" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23061362">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 11:00 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 11:15 AM, Y<br/>
+<a href="#Output-29152615" onClick='toggleBox("Output-29152615", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29152615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29152615">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 11:15 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 11:30 AM, Y<br/>
+<a href="#Output-19201953" onClick='toggleBox("Output-19201953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19201953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19201953">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 11:30 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 11:45 AM, Y<br/>
+<a href="#Output-19733617" onClick='toggleBox("Output-19733617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19733617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19733617">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 11:45 AM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 1:00 PM, Y<br/>
+<a href="#Output-11946680" onClick='toggleBox("Output-11946680", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11946680" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11946680">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 1:00 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 1:15 PM, Y<br/>
+<a href="#Output-24995860" onClick='toggleBox("Output-24995860", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24995860" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24995860">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 1:15 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 1:30 PM, Y<br/>
+<a href="#Output-1943681" onClick='toggleBox("Output-1943681", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1943681" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1943681">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 1:30 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 1:45 PM, Y<br/>
+<a href="#Output-11445433" onClick='toggleBox("Output-11445433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11445433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11445433">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 1:45 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 2:00 PM, Y<br/>
+<a href="#Output-9971980" onClick='toggleBox("Output-9971980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9971980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9971980">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 2:00 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 2:15 PM, Y<br/>
+<a href="#Output-9995154" onClick='toggleBox("Output-9995154", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9995154" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9995154">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 2:15 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 2:30 PM, Y<br/>
+<a href="#Output-22053792" onClick='toggleBox("Output-22053792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22053792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22053792">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 2:30 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 3:00 PM, Y<br/>
+<a href="#Output-29151431" onClick='toggleBox("Output-29151431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29151431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29151431">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 3:00 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 3:15 PM, Y<br/>
+<a href="#Output-17270416" onClick='toggleBox("Output-17270416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17270416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17270416">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 3:15 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 3:30 PM, Y<br/>
+<a href="#Output-21193129" onClick='toggleBox("Output-21193129", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21193129" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21193129">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 3:30 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 3:45 PM, Y<br/>
+<a href="#Output-19869479" onClick='toggleBox("Output-19869479", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19869479" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19869479">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 3:45 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 4:00 PM, Y<br/>
+<a href="#Output-28551678" onClick='toggleBox("Output-28551678", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28551678" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28551678">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 4:00 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 4:15 PM, Y<br/>
+<a href="#Output-31508142" onClick='toggleBox("Output-31508142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-31508142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-31508142">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 4:15 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 4:30 PM, Y<br/>
+<a href="#Output-21060245" onClick='toggleBox("Output-21060245", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21060245" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21060245">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 4:30 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
+<tr>
+<td title='com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful.testName()'><b>testName</b><br>Test class: com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful<br>Parameters: 2017, November, 15, 4:45 PM, Y<br/>
+<a href="#Output-15572076" onClick='toggleBox("Output-15572076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15572076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15572076">
+----------------Starting Test TC001_CheckifBookingSuccessful----------------<br/>
+Opening URL http://automationpractice.com/index.php<br/>
+Time Zone Pup Submitted.<br/>
+Current Month Name is: November 2017<br/>
+Current Month Name is: November 2017<br/>
+Reached to Month: November 2017<br/>
+Date Selected as : 15<br/>
+Time Selected as : 4:45 PM<br/>
+----------------Completed Test TC001_CheckifBookingSuccessful----------------<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.uiAutomation.customerSide.TC001_CheckifBookingSuccessful@f93a98</td></tr>
 </table><p>
 </body>
 </html>
