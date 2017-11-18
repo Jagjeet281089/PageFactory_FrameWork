@@ -4054,3 +4054,8 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected = 
 2017-11-18 20:56:11,324 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
 2017-11-18 20:56:11,328 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-11-18 20:56:11,328 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
+2017-11-18 22:15:15,056 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:hybridFramework:0.0.1-SNAPSHOT @ D:\git\hybridFramework\pom.xml.
+2017-11-18 22:15:16,959 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 22:15:16,959 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 22:15:16,959 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 22:15:16,959 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
