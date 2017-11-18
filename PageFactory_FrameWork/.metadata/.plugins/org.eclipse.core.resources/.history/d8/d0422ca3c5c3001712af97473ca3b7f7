@@ -1,5 +1,0 @@
-package com.test.automation.uiAutomation.customerSide;
-
-public class TC001_CheckifBookingSuccessful {
-
-}
