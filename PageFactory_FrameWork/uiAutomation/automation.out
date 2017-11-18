@@ -4266,3 +4266,34 @@ Create New Account
 2017-11-14 16:50:01 INFO  ProductDetailsPage:146 - Current Month Name is: November 2017
 2017-11-14 16:50:01 INFO  ProductDetailsPage:146 - Reached to Month: November 2017
 2017-11-14 16:50:01 INFO  ProductDetailsPage:146 - Date Selected as : 15
+2017-11-15 17:20:50 INFO  TC001_VerifyLoginWithInvalidCredentials:23 - Opening Browser firefox
+2017-11-15 17:21:19 INFO  TC001_VerifyLoginWithInvalidCredentials:23 - Opening Browser Chrome
+2017-11-15 17:21:31 INFO  TC001_VerifyLoginWithInvalidCredentials:23 - Opening URL http://automationpractice.com/index.php
+2017-11-15 17:21:48 INFO  TC001_VerifyLoginWithInvalidCredentials:23 - ----------------Statring Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-15 17:21:50 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-15 17:21:50 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (7298952dfb6e78dd23e0bdb1f0bc7069)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-15 17:21:51 INFO  RegisterPage:90 - Entered email address test@test.com and the object is:[[ChromeDriver: chrome on XP (7298952dfb6e78dd23e0bdb1f0bc7069)] -> xpath: //*[@id='email']]
+2017-11-15 17:21:51 INFO  RegisterPage:90 - Entered email address qaz123wsx and the object is:[[ChromeDriver: chrome on XP (7298952dfb6e78dd23e0bdb1f0bc7069)] -> xpath: //*[@id='passwd']]
+2017-11-15 17:21:52 INFO  RegisterPage:90 - Clicked on login Submit button & the object is:[[ChromeDriver: chrome on XP (7298952dfb6e78dd23e0bdb1f0bc7069)] -> id: SubmitLogin]
+2017-11-15 17:21:57 INFO  RegisterPage:90 - Authentication Faiulre message text is: Authentication failed.
+2017-11-15 17:21:57 INFO  TC001_VerifyLoginWithInvalidCredentials:23 - ----------------Finished Test TC001_VerifyLoginWithInvalidCredentials----------------
+2017-11-15 17:21:59 INFO  TC001_VerifyLoginWithInvalidCredentials:23 - Closing the Browser and driver instance!
+2017-11-15 17:22:00 INFO  TestBase:21 - Opening Browser Chrome
+2017-11-15 17:22:03 INFO  TestBase:21 - Opening URL http://automationpractice.com/index.php
+2017-11-15 17:22:16 INFO  TestBase:21 - ----------------Starting Test TC002_VerfiyRegistration----------------
+2017-11-15 17:22:18 INFO  HomePage:20 - SignIn link clicked on the page nav Bar.
+2017-11-15 17:22:18 INFO  RegisterPage:90 - Clicked on Signin link at Home page & the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]
+2017-11-15 17:22:19 INFO  RegisterPage:90 - Entered email address Jagjeet_1510746679057@gmail.com and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: email_create]
+2017-11-15 17:22:19 INFO  RegisterPage:90 - Clicked on Register1 Button at Home page & the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: SubmitCreate]
+2017-11-15 17:22:21 INFO  RegisterPage:90 - Entered First Name Jagjeet and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: customer_firstname]
+2017-11-15 17:22:21 INFO  RegisterPage:90 - Entered Last Name Singh and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: customer_lastname]
+2017-11-15 17:22:21 INFO  RegisterPage:90 - Entered Password Password1 and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: passwd]
+2017-11-15 17:22:22 INFO  RegisterPage:90 - Entered Address First Name Add Fir Name and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: firstname]
+2017-11-15 17:22:22 INFO  RegisterPage:90 - Entered Address Last Name Add Last Name and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: lastname]
+2017-11-15 17:22:22 INFO  RegisterPage:90 - Entered Address Line 1 Address Line 1 and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: address1]
+2017-11-15 17:22:23 INFO  RegisterPage:90 - Entered city  City and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: city]
+2017-11-15 17:22:23 INFO  RegisterPage:90 - Selected State Alabama and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: id_state]
+2017-11-15 17:22:23 INFO  RegisterPage:90 - Entered postcode 12345 and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: postcode]
+2017-11-15 17:22:23 INFO  RegisterPage:90 - Selected Country United States and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: id_country]
+2017-11-15 17:22:24 INFO  RegisterPage:90 - Entered mobile 1234567890 and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: phone_mobile]
+2017-11-15 17:22:24 INFO  RegisterPage:90 - Entered alias Alias and the object is:[[ChromeDriver: chrome on XP (ae453e137bcedd489909957b0d2f8f40)] -> id: alias]

@@ -1,8 +1,5 @@
 package com.test.automation.uiAutomation.uiActions;
 
-
-import javax.xml.xpath.XPath;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

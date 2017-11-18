@@ -3977,3 +3977,80 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected = 
 2017-11-14 14:05:10,443 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
 2017-11-14 14:05:10,446 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-11-14 14:05:10,446 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-15 17:15:07,230 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:15:07,330 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-11-15 17:15:07,330 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:15:07,330 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-15 17:16:36,360 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:16:36,361 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-11-15 17:16:36,363 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:16:36,363 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-15 17:16:47,120 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:16:47,135 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-11-15 17:16:47,135 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:16:47,135 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-15 17:18:44,848 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:18:44,849 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-11-15 17:18:44,851 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:18:44,851 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-15 17:20:40,931 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2017-11-15 17:21:12,195 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:21:12,195 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-11-15 17:21:12,195 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:21:12,195 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-15 17:22:54,009 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:22:54,009 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-11-15 17:22:54,012 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 17:22:54,012 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-15 18:40:56,182 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 18:40:56,182 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-11-15 18:40:56,186 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-15 18:40:56,186 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-16 12:01:45,934 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-16 12:01:45,934 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\main\resources
+2017-11-16 12:01:45,950 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-16 12:01:45,950 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\PageFactory_FrameWork\uiAutomation\src\test\resources
+2017-11-18 20:47:01,115 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\git\hybridFramework\pom.xml
+2017-11-18 20:47:14,688 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:hybridFramework:0.0.1-SNAPSHOT @ D:\git\hybridFramework\pom.xml.
+2017-11-18 20:47:17,896 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hybridFramework/src/main/java
+2017-11-18 20:47:17,927 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hybridFramework/src/test/java
+2017-11-18 20:47:19,122 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 17 sec
+2017-11-18 20:47:20,993 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:47:20,993 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 20:47:21,001 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:47:21,001 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
+2017-11-18 20:48:56,599 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:hybridFramework:0.0.1-SNAPSHOT @ D:\git\hybridFramework\pom.xml.
+2017-11-18 20:48:59,275 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:48:59,275 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 20:48:59,279 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:48:59,279 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
+2017-11-18 20:49:01,842 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:49:01,842 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 20:49:01,846 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:49:01,850 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
+2017-11-18 20:49:08,261 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:hybridFramework:0.0.1-SNAPSHOT @ D:\git\hybridFramework\pom.xml.
+2017-11-18 20:49:09,514 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:49:09,514 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 20:49:09,514 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:49:09,518 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
+2017-11-18 20:51:03,582 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:51:03,582 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 20:51:03,586 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:51:03,586 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
+2017-11-18 20:52:13,039 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:52:13,039 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 20:52:13,044 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:52:13,045 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
+2017-11-18 20:52:33,381 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\git\hybridFramework
+2017-11-18 20:52:33,381 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2017-11-18 20:52:40,026 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2017-11-18 20:53:03,864 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\git\hybridFramework
+2017-11-18 20:53:03,864 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-11-18 20:54:37,460 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:54:37,461 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 20:54:37,463 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:54:37,463 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
+2017-11-18 20:56:11,324 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:56:11,324 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\main\resources
+2017-11-18 20:56:11,328 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-18 20:56:11,328 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git\hybridFramework\src\test\resources
